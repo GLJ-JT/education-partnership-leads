@@ -16,8 +16,10 @@ def main():
     leads = json.loads(DATA.read_text(encoding="utf-8"))
     country_names = {
         "AE": "United Arab Emirates",
+        "AR": "Argentina",
         "AU": "Australia",
         "BR": "Brazil",
+        "CA": "Canada",
         "CN": "China",
         "CO": "Colombia",
         "DE": "Germany",
@@ -25,12 +27,16 @@ def main():
         "FR": "France",
         "GB": "United Kingdom",
         "ID": "Indonesia",
+        "IE": "Ireland",
         "IN": "India",
+        "INT": "International",
         "IT": "Italy",
         "JP": "Japan",
         "KR": "South Korea",
+        "MX": "Mexico",
         "MY": "Malaysia",
         "NL": "Netherlands",
+        "NG": "Nigeria",
         "PK": "Pakistan",
         "PL": "Poland",
         "SA": "Saudi Arabia",
@@ -38,6 +44,7 @@ def main():
         "TH": "Thailand",
         "TR": "Turkey",
         "VN": "Vietnam",
+        "ZA": "South Africa",
     }
     countries = sorted({lead.get("country") for lead in leads if lead.get("country")})
     country_options = "\n".join(
@@ -53,18 +60,19 @@ def main():
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     :root {{
-      --bg: #071018;
-      --panel: #0c1622;
-      --panel-2: #101d2b;
-      --text: #e6f3f7;
-      --muted: #88a3ad;
-      --line: rgba(136, 163, 173, .24);
-      --cyan: #33d6d0;
-      --blue: #5aa7ff;
-      --green: #3ee29c;
-      --yellow: #f7c955;
-      --red: #ff6b8a;
-      --shadow: 0 18px 55px rgba(0, 0, 0, .28);
+      --bg: #f6f7fb;
+      --panel: #ffffff;
+      --panel-2: #f7f8fb;
+      --text: #181b34;
+      --muted: #676879;
+      --line: #dfe3eb;
+      --cyan: #0073ea;
+      --blue: #579bfc;
+      --green: #00c875;
+      --yellow: #fdab3d;
+      --red: #e2445c;
+      --purple: #a25ddc;
+      --shadow: 0 10px 28px rgba(29, 30, 43, .08);
     }}
     * {{ box-sizing: border-box; }}
     html, body {{ height: 100%; }}
@@ -72,11 +80,7 @@ def main():
       margin: 0;
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       color: var(--text);
-      background:
-        linear-gradient(90deg, rgba(51, 214, 208, .06) 1px, transparent 1px),
-        linear-gradient(rgba(51, 214, 208, .04) 1px, transparent 1px),
-        var(--bg);
-      background-size: 36px 36px;
+      background: var(--bg);
       overflow: hidden;
     }}
     button, input, select, textarea {{ font: inherit; }}
@@ -86,13 +90,13 @@ def main():
     .app {{ height: 100vh; display: grid; grid-template-rows: auto 1fr; overflow: hidden; }}
     .top {{
       display: grid;
-      grid-template-columns: minmax(270px, 1fr) auto minmax(320px, 1.2fr);
+      grid-template-columns: minmax(260px, .85fr) auto minmax(540px, 1.55fr);
       gap: 16px;
       align-items: center;
-      padding: 14px 18px;
+      padding: 14px 20px;
       border-bottom: 1px solid var(--line);
-      background: rgba(7, 16, 24, .92);
-      backdrop-filter: blur(14px);
+      background: var(--panel);
+      box-shadow: 0 1px 2px rgba(29, 30, 43, .04);
     }}
     h1 {{ margin: 0 0 4px; font-size: 20px; line-height: 1.15; letter-spacing: 0; }}
     .sub {{ color: var(--muted); font-size: 12px; }}
@@ -102,7 +106,7 @@ def main():
       padding: 4px;
       border: 1px solid var(--line);
       border-radius: 8px;
-      background: rgba(255, 255, 255, .04);
+      background: #eef1f7;
       min-width: 230px;
     }}
     .view-toggle button {{
@@ -113,23 +117,23 @@ def main():
       padding: 9px 14px;
     }}
     .view-toggle button.active {{
-      color: #021014;
-      background: linear-gradient(135deg, var(--cyan), var(--blue));
+      color: #fff;
+      background: var(--cyan);
       font-weight: 800;
     }}
-    .filters {{ display: grid; grid-template-columns: 1.5fr repeat(4, minmax(96px, .7fr)); gap: 8px; }}
+    .filters {{ display: grid; grid-template-columns: minmax(220px, 1.4fr) repeat(4, minmax(112px, .7fr)); gap: 8px; }}
     input, select, textarea {{
       width: 100%;
       min-width: 0;
       color: var(--text);
-      background: rgba(255, 255, 255, .055);
+      background: #fff;
       border: 1px solid var(--line);
       border-radius: 7px;
       padding: 9px 10px;
       outline: none;
     }}
     textarea {{ min-height: 82px; resize: vertical; }}
-    input:focus, select:focus, textarea:focus {{ border-color: rgba(51, 214, 208, .72); box-shadow: 0 0 0 3px rgba(51, 214, 208, .12); }}
+    input:focus, select:focus, textarea:focus {{ border-color: var(--cyan); box-shadow: 0 0 0 3px rgba(0, 115, 234, .12); }}
     .view {{ min-height: 0; display: none; }}
     .view.active {{ display: grid; }}
     .dashboard {{
@@ -138,7 +142,7 @@ def main():
     }}
     .rail, .side {{
       min-height: 0;
-      background: rgba(12, 22, 34, .86);
+      background: var(--panel);
       border-right: 1px solid var(--line);
       display: flex;
       flex-direction: column;
@@ -148,7 +152,7 @@ def main():
     .metrics {{ display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }}
     .metric {{
       border: 1px solid var(--line);
-      background: rgba(255,255,255,.045);
+      background: var(--panel-2);
       border-radius: 8px;
       padding: 9px;
       min-width: 0;
@@ -167,8 +171,8 @@ def main():
       border-radius: 8px;
       padding: 10px;
     }}
-    .lead-row:hover {{ background: rgba(255,255,255,.055); }}
-    .lead-row.active {{ border-color: rgba(51,214,208,.72); background: rgba(51,214,208,.11); }}
+    .lead-row:hover {{ background: #f0f6ff; }}
+    .lead-row.active {{ border-color: rgba(0,115,234,.45); background: #eaf3ff; }}
     .lead-title {{ font-weight: 800; font-size: 13px; line-height: 1.3; }}
     .lead-meta {{ color: var(--muted); display: flex; flex-wrap: wrap; gap: 7px; font-size: 12px; }}
     .badges {{ display: flex; gap: 5px; flex-wrap: wrap; }}
@@ -181,11 +185,11 @@ def main():
       padding: 2px 7px;
       font-size: 11px;
       color: var(--muted);
-      background: rgba(255,255,255,.045);
+      background: #f7f8fb;
     }}
-    .badge.Keep, .badge.keep {{ color: var(--green); border-color: rgba(62,226,156,.45); background: rgba(62,226,156,.1); }}
-    .badge.Review, .badge.review {{ color: var(--yellow); border-color: rgba(247,201,85,.45); background: rgba(247,201,85,.1); }}
-    .badge.Remove, .badge.remove {{ color: var(--red); border-color: rgba(255,107,138,.45); background: rgba(255,107,138,.1); }}
+    .badge.Keep, .badge.keep {{ color: #037f4c; border-color: rgba(0,200,117,.28); background: rgba(0,200,117,.12); }}
+    .badge.Review, .badge.review {{ color: #9d5d00; border-color: rgba(253,171,61,.34); background: rgba(253,171,61,.14); }}
+    .badge.Remove, .badge.remove {{ color: #bb3354; border-color: rgba(226,68,92,.28); background: rgba(226,68,92,.12); }}
     .detail-shell {{ min-height: 0; overflow: auto; }}
     .detail {{ max-width: 1220px; margin: 0 auto; padding: 18px; }}
     .detail-top {{ display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; margin-bottom: 14px; }}
@@ -193,16 +197,16 @@ def main():
     .actions {{ display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }}
     .btn {{
       border: 1px solid var(--line);
-      background: rgba(255,255,255,.06);
+      background: #fff;
       color: var(--text);
       border-radius: 7px;
       padding: 8px 10px;
       text-decoration: none;
       font-size: 13px;
     }}
-    .btn.primary {{ color: #001316; background: var(--cyan); border-color: var(--cyan); font-weight: 800; }}
+    .btn.primary {{ color: #fff; background: var(--cyan); border-color: var(--cyan); font-weight: 800; }}
     .detail-grid {{ display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(320px, .8fr); gap: 14px; }}
-    section {{ border: 1px solid var(--line); border-radius: 8px; background: rgba(12, 22, 34, .88); box-shadow: var(--shadow); overflow: hidden; }}
+    section {{ border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: var(--shadow); overflow: hidden; }}
     section h3 {{ margin: 0; padding: 13px 14px; font-size: 14px; border-bottom: 1px solid var(--line); }}
     .field-grid {{ display: grid; grid-template-columns: 145px 1fr; }}
     .field {{ display: contents; }}
@@ -213,33 +217,33 @@ def main():
     .check {{ display: grid; grid-template-columns: 18px 1fr; gap: 9px; align-items: start; font-size: 13px; }}
     .check input {{ width: 16px; height: 16px; margin-top: 1px; accent-color: var(--cyan); }}
     .map-view {{ grid-template-columns: minmax(0, 1fr) 380px; min-height: 0; }}
-    .map-stage {{ position: relative; min-width: 0; min-height: 0; overflow: hidden; background: #071326; }}
-    #map {{ width: 100%; height: 100%; min-height: 0; background: #071326; cursor: grab; }}
+    .map-stage {{ position: relative; min-width: 0; min-height: 0; overflow: hidden; background: #e8edf5; }}
+    #map {{ width: 100%; height: 100%; min-height: 0; background: #e8edf5; cursor: grab; }}
     #map:active {{ cursor: grabbing; }}
-    .leaflet-container {{ background: #071326; font-family: inherit; }}
+    .leaflet-container {{ background: #e8edf5; font-family: inherit; }}
     .leaflet-control-attribution {{ display: none; }}
-    .leaflet-tile {{ filter: saturate(1.05) contrast(1.04); }}
+    .leaflet-tile {{ filter: saturate(.92) contrast(.98); }}
     .lead-marker {{
       width: 15px;
       height: 15px;
       border-radius: 999px;
-      border: 2px solid rgba(238, 250, 255, .9);
-      box-shadow: 0 0 0 8px rgba(51, 214, 208, .14), 0 0 22px rgba(51, 214, 208, .22);
+      border: 2px solid #fff;
+      box-shadow: 0 0 0 5px rgba(0, 115, 234, .14), 0 6px 16px rgba(29, 30, 43, .18);
       transform: translate(-50%, -50%);
     }}
-    .lead-marker.Keep {{ background: var(--green); box-shadow: 0 0 0 8px rgba(62, 226, 156, .14), 0 0 22px rgba(62, 226, 156, .28); }}
-    .lead-marker.Review {{ background: var(--yellow); box-shadow: 0 0 0 8px rgba(247, 201, 85, .14), 0 0 22px rgba(247, 201, 85, .28); }}
-    .lead-marker.Remove {{ background: var(--red); box-shadow: 0 0 0 8px rgba(255, 107, 138, .13), 0 0 22px rgba(255, 107, 138, .24); }}
+    .lead-marker.Keep {{ background: var(--green); box-shadow: 0 0 0 5px rgba(0, 200, 117, .14), 0 6px 16px rgba(29, 30, 43, .18); }}
+    .lead-marker.Review {{ background: var(--yellow); box-shadow: 0 0 0 5px rgba(253, 171, 61, .18), 0 6px 16px rgba(29, 30, 43, .18); }}
+    .lead-marker.Remove {{ background: var(--red); box-shadow: 0 0 0 5px rgba(226, 68, 92, .14), 0 6px 16px rgba(29, 30, 43, .18); }}
     .lead-marker.active {{
       width: 21px;
       height: 21px;
       border-width: 3px;
-      box-shadow: 0 0 0 14px rgba(51, 214, 208, .18), 0 0 34px rgba(255, 255, 255, .34);
+      box-shadow: 0 0 0 10px rgba(0, 115, 234, .18), 0 9px 22px rgba(29, 30, 43, .22);
     }}
     .lead-tooltip {{
       color: var(--text);
-      background: rgba(7, 16, 24, .94);
-      border: 1px solid rgba(51, 214, 208, .38);
+      background: #fff;
+      border: 1px solid var(--line);
       border-radius: 8px;
       box-shadow: var(--shadow);
       padding: 0;
@@ -250,14 +254,14 @@ def main():
     .lead-tip {{ display: grid; gap: 7px; padding: 10px 11px; }}
     .lead-tip strong {{ display: block; font-size: 13px; line-height: 1.25; }}
     .lead-tip-meta {{ display: flex; gap: 6px; flex-wrap: wrap; color: var(--muted); font-size: 11px; }}
-    .lead-tip-role {{ color: #b9d4de; font-size: 11px; line-height: 1.35; }}
+    .lead-tip-role {{ color: #323338; font-size: 11px; line-height: 1.35; }}
     .lead-tip-signals {{ display: flex; gap: 5px; flex-wrap: wrap; }}
     .lead-tip-signals span {{
       border: 1px solid var(--line);
       border-radius: 999px;
       padding: 2px 6px;
       color: var(--muted);
-      background: rgba(255,255,255,.045);
+      background: #f7f8fb;
       font-size: 10px;
     }}
     .map-card {{
@@ -265,11 +269,10 @@ def main():
       left: 16px;
       top: 16px;
       width: min(570px, calc(100% - 32px));
-      background: rgba(7, 16, 24, .84);
-      border: 1px solid rgba(51,214,208,.26);
+      background: rgba(255, 255, 255, .94);
+      border: 1px solid var(--line);
       border-radius: 8px;
       box-shadow: var(--shadow);
-      backdrop-filter: blur(13px);
       padding: 12px;
       pointer-events: none;
     }}
@@ -282,9 +285,9 @@ def main():
       align-items: center;
       gap: 8px;
       padding: 8px;
-      border: 1px solid rgba(51,214,208,.34);
+      border: 1px solid var(--line);
       border-radius: 8px;
-      background: rgba(7,16,24,.86);
+      background: rgba(255,255,255,.94);
       box-shadow: var(--shadow);
     }}
     .zoom-box button {{
@@ -293,12 +296,12 @@ def main():
       border: 1px solid var(--line);
       border-radius: 7px;
       color: var(--text);
-      background: rgba(255,255,255,.07);
+      background: #fff;
       font-size: 20px;
       line-height: 1;
     }}
     .zoom-box strong {{ min-width: 42px; text-align: center; }}
-    .map-panel {{ min-height: 0; display: grid; grid-template-rows: auto minmax(0, 1fr); border-left: 1px solid var(--line); background: rgba(12, 22, 34, .92); overflow: hidden; }}
+    .map-panel {{ min-height: 0; display: grid; grid-template-rows: auto minmax(0, 1fr); border-left: 1px solid var(--line); background: var(--panel); overflow: hidden; }}
     .map-detail {{ padding: 14px; border-bottom: 1px solid var(--line); max-height: 42vh; overflow: auto; }}
     .map-list {{ min-height: 0; overflow: auto; padding: 8px; }}
     .empty {{ padding: 48px; text-align: center; color: var(--muted); }}
@@ -324,7 +327,7 @@ def main():
   <div class="app">
     <header class="top">
       <div>
-        <h1>Education Partnership Leads Command Center</h1>
+        <h1>Education Partnership Leads</h1>
         <div class="sub">Worldwide education partnership lead dashboard with map navigation</div>
       </div>
       <div class="view-toggle" aria-label="View switcher">
@@ -423,12 +426,13 @@ def main():
       easeLinearity: 0.2,
       preferCanvas: true
     }}).setView([state.centerLat, state.centerLon], state.zoom);
-    L.tileLayer('https://basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}.png', {{
+    L.tileLayer('https://basemaps.cartocdn.com/light_all/{{z}}/{{x}}/{{y}}.png', {{
       maxZoom: 18,
       minZoom: 3,
       crossOrigin: true
     }}).addTo(map);
     const markerLayer = L.layerGroup().addTo(map);
+    const markerByLead = new Map();
     const $ = id => document.getElementById(id);
     const safe = v => (v || '').toString().trim();
     const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
@@ -589,6 +593,7 @@ def main():
     }}
     function renderMarkers() {{
       markerLayer.clearLayers();
+      markerByLead.clear();
       for (const entry of rows(true)) {{
         const marker = L.marker([entry.lead.lat, entry.lead.lon], {{
           icon: markerIcon(entry.lead, entry.i === state.selected),
@@ -605,6 +610,7 @@ def main():
         }});
         marker.on('click', () => selectLead(entry.i, false));
         marker.addTo(markerLayer);
+        markerByLead.set(entry.i, marker);
       }}
       updateZoomReadout();
     }}
@@ -623,6 +629,14 @@ def main():
       renderDashboard();
       renderMapPanel();
       renderMarkers();
+      if (state.view === 'map') {{
+        const openSelected = () => {{
+          const marker = markerByLead.get(i);
+          if (marker) marker.openTooltip();
+        }};
+        if (fly) setTimeout(openSelected, 700);
+        else requestAnimationFrame(openSelected);
+      }}
     }}
     function setView(view) {{
       state.view = view;
