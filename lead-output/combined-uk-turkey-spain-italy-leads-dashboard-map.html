@@ -190,6 +190,30 @@
       border-width: 3px;
       box-shadow: 0 0 0 14px rgba(51, 214, 208, .18), 0 0 34px rgba(255, 255, 255, .34);
     }
+    .lead-tooltip {
+      color: var(--text);
+      background: rgba(7, 16, 24, .94);
+      border: 1px solid rgba(51, 214, 208, .38);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 0;
+      white-space: normal;
+      width: 260px;
+    }
+    .lead-tooltip::before { display: none; }
+    .lead-tip { display: grid; gap: 7px; padding: 10px 11px; }
+    .lead-tip strong { display: block; font-size: 13px; line-height: 1.25; }
+    .lead-tip-meta { display: flex; gap: 6px; flex-wrap: wrap; color: var(--muted); font-size: 11px; }
+    .lead-tip-role { color: #b9d4de; font-size: 11px; line-height: 1.35; }
+    .lead-tip-signals { display: flex; gap: 5px; flex-wrap: wrap; }
+    .lead-tip-signals span {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 2px 6px;
+      color: var(--muted);
+      background: rgba(255,255,255,.045);
+      font-size: 10px;
+    }
     .map-card {
       position: absolute;
       left: 16px;
@@ -494,6 +518,25 @@
         iconAnchor: [0, 0]
       });
     }
+    function tooltipHtml(lead) {
+      const signals = [
+        safe(lead.email) ? '<span>email</span>' : '',
+        safe(lead.phone) ? '<span>phone</span>' : '',
+        safe(lead.decision_maker_name) ? '<span>verified DM</span>' : '',
+        safe(lead.linkedin_company_url + lead.linkedin_person_url) ? '<span>LinkedIn</span>' : ''
+      ].join('');
+      return `<div class="lead-tip">
+        <strong>${esc(lead.business_name)}</strong>
+        <div class="lead-tip-meta">
+          <span>${esc(lead.city || 'No city')}</span>
+          <span>${esc(lead.country || '')}</span>
+          <span>${esc(lead.quality_recommendation || 'Unaudited')}</span>
+          <span>score ${esc(lead.score || 0)}</span>
+        </div>
+        <div class="lead-tip-role">${esc(lead.market_role || lead.quality_reason || '')}</div>
+        ${signals ? `<div class="lead-tip-signals">${signals}</div>` : ''}
+      </div>`;
+    }
     function updateZoomReadout() {
       state.zoom = map.getZoom();
       const center = map.getCenter();
@@ -509,6 +552,13 @@
           keyboard: false,
           riseOnHover: true,
           title: entry.lead.business_name || ''
+        });
+        marker.bindTooltip(tooltipHtml(entry.lead), {
+          className: 'lead-tooltip',
+          direction: 'top',
+          offset: [0, -13],
+          opacity: 1,
+          sticky: true
         });
         marker.on('click', () => selectLead(entry.i, false));
         marker.addTo(markerLayer);
