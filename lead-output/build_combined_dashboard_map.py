@@ -99,7 +99,7 @@ def main():
       --toggle-bg: #151e2d;
       --hover-bg: #243149;
       --active-bg: #12345f;
-      --chip-bg: #273244;
+      --chip-bg: #334155;
       --map-bg: #172033;
       --tile-filter: invert(1) hue-rotate(180deg) saturate(.72) brightness(.82) contrast(.9);
       --top-shadow: 0 1px 0 rgba(255, 255, 255, .04);
@@ -233,6 +233,10 @@ def main():
     .badge.Keep, .badge.keep {{ color: #037f4c; border-color: rgba(0,200,117,.28); background: rgba(0,200,117,.12); }}
     .badge.Review, .badge.review {{ color: #9d5d00; border-color: rgba(253,171,61,.34); background: rgba(253,171,61,.14); }}
     .badge.Remove, .badge.remove {{ color: #bb3354; border-color: rgba(226,68,92,.28); background: rgba(226,68,92,.12); }}
+    body[data-theme="dark"] .badge {{ color: #f2f6fb; border-color: #64748b; background: #3b4658; }}
+    body[data-theme="dark"] .badge.Keep, body[data-theme="dark"] .badge.keep {{ color: #b8ffd8; border-color: rgba(0,200,117,.68); background: rgba(0,200,117,.3); }}
+    body[data-theme="dark"] .badge.Review, body[data-theme="dark"] .badge.review {{ color: #ffe1ad; border-color: rgba(253,171,61,.72); background: rgba(253,171,61,.3); }}
+    body[data-theme="dark"] .badge.Remove, body[data-theme="dark"] .badge.remove {{ color: #ffc0cb; border-color: rgba(255,95,119,.7); background: rgba(255,95,119,.28); }}
     .detail-shell {{ min-height: 0; overflow: auto; }}
     .detail {{ max-width: 1220px; margin: 0 auto; padding: 18px; }}
     .detail-top {{ display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; margin-bottom: 14px; }}
@@ -307,6 +311,7 @@ def main():
       background: var(--chip-bg);
       font-size: 10px;
     }}
+    body[data-theme="dark"] .lead-tip-signals span {{ color: #d9e2ef; border-color: #526174; }}
     .map-card {{
       position: absolute;
       left: 16px;
