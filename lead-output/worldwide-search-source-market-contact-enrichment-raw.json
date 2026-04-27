@@ -1,0 +1,5339 @@
+[
+  {
+    "originalStartUrl": "https://ccevoyages.com",
+    "domain": "ccevoyages.com",
+    "scrapedUrls": [
+      "https://ccevoyages.com/",
+      "https://ccevoyages.com/",
+      "https://ccevoyages.com/#",
+      "https://ccevoyages.com/#collapseMenu",
+      "https://ccevoyages.com/contact/",
+      "https://inscriptions.ccevoyages.com/Account/Login?ReturnUrl=%2F",
+      "https://ccevoyages.com/voyages-scolaires/",
+      "https://ccevoyages.com/destination-voyage-scolaire/nouveautes/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "+33385205485"
+    ],
+    "phonesUncertain": [
+      "03 85 20 54",
+      "2025-2026"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/ccevoyages"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/capitalcultureleuropeen"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.clc.fr/sejour-linguistique/profils/lyceens",
+    "domain": "clc.fr",
+    "scrapedUrls": [
+      "https://www.clc.fr/sejour-linguistique/profils/lyceens",
+      "https://www.clc.fr/contact",
+      "https://www.clc.fr/presse",
+      "https://www.clc.fr/sejour-linguistique/destinations/angleterre",
+      "https://www.clc.fr/sejour-linguistique/destinations/etats-unis",
+      "https://www.clc.fr/sejour-linguistique/destinations/irlande",
+      "https://www.clc.fr/sejour-linguistique/destinations/espagne",
+      "https://www.clc.fr/infos-pratiques/faq"
+    ],
+    "depth": 0,
+    "emails": [
+      "clc@clc.fr",
+      "sejours@clc.fr",
+      "etudiants@clc.fr",
+      "cnil@clc.fr",
+      "x.obert@goandlive.com"
+    ],
+    "phones": [
+      "+33565775021",
+      "+33565775022"
+    ],
+    "phonesUncertain": [
+      "05 65 77 50",
+      "1765180384",
+      "460483006",
+      "1765180429",
+      "13.11.2017",
+      "18.03.2017",
+      "21.03.2017",
+      "24.11.2016",
+      "1765180382",
+      "1765180321",
+      "1765180383",
+      "1765180446",
+      "1765180391",
+      "762800173"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/clc_sejour_linguistique"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/clcsejourlinguistique"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/channel/UCyHzAdq6p69etXglhjPPhcg",
+      "https://www.youtube.com/watch?v=G0GwBJwLyuo"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://api.whatsapp.com/send?phone=33771352369"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.nacel.fr/sejour-linguistique/sejour-jeunes",
+    "domain": "nacel.fr",
+    "scrapedUrls": [
+      "https://www.nacel.fr/sejour-linguistique/sejour-jeunes",
+      "https://www.nacel.fr/contact",
+      "https://www.nacel.fr/infos-presse",
+      "https://www.nacel.fr/sejour-linguistique",
+      "https://www.nacel.fr/sejour-linguistique/pays/afrique-du-sud",
+      "https://www.nacel.fr/sejour-linguistique/pays/allemagne",
+      "https://www.nacel.fr/",
+      "https://www.nacel.fr/sejour-linguistique/pays/angleterre"
+    ],
+    "depth": 0,
+    "emails": [
+      "nacel@nacel.fr"
+    ],
+    "phones": [
+      "+33565765525"
+    ],
+    "phonesUncertain": [
+      "05 65 76 55",
+      "1183586400100",
+      "1767698422",
+      "1767698458",
+      "1767698556",
+      "1768993666",
+      "1768993675",
+      "1768993705",
+      "1768993729",
+      "1768993753",
+      "1768993786",
+      "1769073100",
+      "1770047446",
+      "1770047509",
+      "1770047523",
+      "1770047524",
+      "1770047590",
+      "1770047628",
+      "1770047639",
+      "1770047640",
+      "1770047645",
+      "1770047646",
+      "1770047648",
+      "1770047649",
+      "1770106155",
+      "1770106156",
+      "1770106157",
+      "1770106165",
+      "1770106166",
+      "1770106167",
+      "1770106168",
+      "1770106342",
+      "1770106343",
+      "1770106344",
+      "1770106877",
+      "1770106878",
+      "1770107437",
+      "1770107438",
+      "1770107439",
+      "1770107440",
+      "1770107441",
+      "1770107442",
+      "1770107443",
+      "1770107445",
+      "1770107446",
+      "1770107447",
+      "1770107458",
+      "1770107459",
+      "1770107465",
+      "1770107466"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/nacel"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/nacelfrance"
+    ],
+    "facebooks": [
+      "facebook.com/nacelsejourslinguistiques"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/channel/UCu-wk_EXCjbUYFGJkRzrS6g",
+      "https://www.youtube.com/embed/nxpBx7_34QM"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@nacel_officiel"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://api.whatsapp.com/send?phone=33635625825"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.travelworks.de/sprachreisen/schueler/england/bournemouth.html",
+    "domain": "travelworks.de",
+    "scrapedUrls": [
+      "https://www.travelworks.de/sprachreisen/schueler/england/bournemouth.html",
+      "https://www.travelworks.de/kontakt.html",
+      "https://www.travelworks.de/merkzettel.html",
+      "https://www.travelworks.de/kontakt/barrierefreiheitserklaerung.html",
+      "https://www.travelworks.de/work-and-travel.html",
+      "https://www.travelworks.de/#collapseSearch",
+      "https://www.travelworks.de/travelworks-newsletter.html",
+      "https://www.travelworks.de/kataloge.html"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@travelworks.de",
+      "kfroechling@travelworks.de",
+      "beschwerde@versicherungsombudsmann.de",
+      "kontakt@mlbf-barrierefrei.de"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "01.01.2026",
+      "01.10.2021",
+      "02.04.2025",
+      "0251-98209",
+      "03.03.2023",
+      "09.08.2026",
+      "16.08.2026",
+      "19.02.2026",
+      "251-98209",
+      "30.06.2026",
+      "31.12.2026",
+      "31.12.2027",
+      "32 48155",
+      "0800 3696000",
+      "0800 3699000",
+      "176250249",
+      "(0211) 8553451",
+      "+49 391 567 6970",
+      "25 40219",
+      "28.01.2026"
+    ],
+    "linkedIns": [
+      "https://de.linkedin.com/company/travelplus-group"
+    ],
+    "twitters": [
+      "twitter.com/TW_Osmington",
+      "twitter.com/travelworks"
+    ],
+    "instagrams": [
+      "https://instagram.com/travelworks.official",
+      "instagram.com/travelworks.highschool",
+      "instagram.com/travelworks.official",
+      "https://www.instagram.com/travelworks.official"
+    ],
+    "facebooks": [
+      "facebook.com/travelworks"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/TravelWorks1",
+      "youtube.com/user/TravelWorks1"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@travelworks.official"
+    ],
+    "pinterests": [
+      "https://de.pinterest.com/TravelWorksDE"
+    ],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.verdiehello.com/sejours/pays/angleterre.html",
+    "domain": "verdiehello.com",
+    "scrapedUrls": [
+      "https://www.verdiehello.com/sejours/pays/angleterre.html",
+      "https://www.verdiehello.com/contact.html",
+      "https://www.verdiehello.com/sejours/pays/afrique-du-sud.html",
+      "https://www.verdiehello.com/destinations/villes/allemagne/munich.html",
+      "https://www.verdiehello.com/destinations/villes/angleterre/bristol.html",
+      "https://www.verdiehello.com/destinations/villes/allemagne/berlin.html",
+      "https://www.verdiehello.com/sejours/pays/allemagne.html",
+      "https://www.verdiehello.com/destinations/villes/angleterre/brighton.html"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "05 65 77 10"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/verdie-hello"
+    ],
+    "twitters": [
+      "https://twitter.com/verdiehello"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/verdiehello"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/verdiehello"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/channel/UCUt8o-MT1CHDcq10is_kA1g",
+      "https://www.youtube.com/embed/9-spbRv8FwU",
+      "https://www.youtube.com/embed/xbeAJsk_Gx8"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.action-sejours.com/sejour-linguistique-adolescent-et-enfant/angleterre",
+    "domain": "action-sejours.com",
+    "scrapedUrls": [
+      "https://www.action-sejours.com/sejour-linguistique-adolescent-et-enfant/angleterre",
+      "https://www.action-sejours.com/qui-sommes-nous/contactez-nous",
+      "https://www.action-sejours.com/faq/",
+      "https://blog.action-sejours.com/",
+      "https://www.action-sejours.com/espaces_clients.php",
+      "https://www.action-sejours.com/colonie-de-vacances-internationale/",
+      "https://www.action-sejours.com/",
+      "https://www.action-sejours.com/colonie-de-vacances/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "0145309191"
+    ],
+    "phonesUncertain": [
+      "+33145309191",
+      "01 45 30 91"
+    ],
+    "linkedIns": [
+      "https://fr.linkedin.com/company/action-sejours1"
+    ],
+    "twitters": [
+      "https://twitter.com/ActionSejours",
+      "https://twitter.com/actionsejours"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/actionsejours"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/actionsejours",
+      "facebook.com/actionsejours"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/ActionSejours",
+      "https://www.youtube.com/ActionSejours"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.englishforsuccess.fr/page/sejour-adolescent",
+    "domain": "englishforsuccess.fr",
+    "scrapedUrls": [
+      "https://www.englishforsuccess.fr/page/sejour-adolescent",
+      "https://www.englishforsuccess.fr/contact",
+      "https://www.englishforsuccess.fr/login",
+      "https://www.englishforsuccess.fr/blog",
+      "https://www.englishforsuccess.fr/#",
+      "https://www.englishforsuccess.fr/sejour-adolescent",
+      "https://www.englishforsuccess.fr/login",
+      "https://www.englishforsuccess.fr/nos-familles"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@englishforsuccess.fr"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "06 68 47 23",
+      "1777212822",
+      "1777212643",
+      "1777212728",
+      "1769470481",
+      "1769470478",
+      "1769470487",
+      "1769470475",
+      "1769470491",
+      "1769470529",
+      "1769470515",
+      "1715716787",
+      "1720700697",
+      "1776419207",
+      "1776187853",
+      "1772531790",
+      "1738161804",
+      "1776099087",
+      "1775824397",
+      "7720611132",
+      "210-426428",
+      "1775128524",
+      "91637141",
+      "1776187828",
+      "1775760945",
+      "1776090151",
+      "1765896087",
+      "1776185063",
+      "1775677399",
+      "1771315290",
+      "6676-4418",
+      "1775941748",
+      "1765887687",
+      "1775761029",
+      "1765886912",
+      "1770683722",
+      "1765892617",
+      "1765895518",
+      "1775134821",
+      "1776158817",
+      "1770296119",
+      "1774625842",
+      "1774627417",
+      "1717747441"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/in/fiona-durand-73a0699"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/english.forsuccess"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/englishforsuccess.fr"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/@englishforsuccess8674",
+      "https://www.youtube.com/embed/QapCtfh4p6g"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.esl.fr/fr/programmes/camps-juniors",
+    "domain": "esl.fr",
+    "scrapedUrls": [
+      "https://www.esl.fr/fr/programmes/camps-juniors",
+      "https://www.esl.fr/fr/contactez-nous",
+      "https://www.esl.fr/fr",
+      "https://www.esl.fr/fr/devis-personnalise",
+      "https://www.esl.fr/fr/brochure-gratuite",
+      "https://www.esl.fr/fr/course-finder",
+      "https://blog.esl.fr/blog/apprendre-les-langues/series-tv-pour-apprende-l-espagnol/",
+      "https://blog.esl.fr/blog/apprendre-les-langues/preparez-votre-enfant-a-la-reussite-professionnelle/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "+33155421012",
+      "+33540246635",
+      "+33359810333",
+      "+33478283956",
+      "+33493803647"
+    ],
+    "phonesUncertain": [
+      "01 55 42 10",
+      "05 40 24 66",
+      "03 59 81 03",
+      "04 78 28 39",
+      "04 93 80 36",
+      "+33612345678"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/esleducation"
+    ],
+    "twitters": [
+      "https://twitter.com/ESLeducation",
+      "https://twitter.com/esleducation"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/esl.sejourslinguistiques",
+      "https://www.instagram.com/esl_education"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/ESLsejourslinguistiques",
+      "https://www.facebook.com/ESLlanguagestudiesabroad",
+      "https://www.facebook.com/ESLidiomas"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/embed/3eKLmyyWHIY",
+      "https://www.youtube.com/embed/zkv5eHUAqAw",
+      "https://www.youtube.com/embed/lWbOK7dh-PM",
+      "https://www.youtube.com/embed/To_kVMMu-Ls",
+      "https://www.youtube.com/embed/QNwhAdrdwp0",
+      "https://www.youtube.com/embed/ffRWON6vRok",
+      "https://www.youtube.com/embed/k2oJLX4u8Pc"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.nacel.org/en/summer-camps",
+    "domain": "nacel.org",
+    "scrapedUrls": [
+      "https://www.nacel.org/en/summer-camps",
+      "https://www.nacel.org/en/about-us",
+      "https://www.nacel.org/en/blog/all-you-need-to-know-about-summer-camps-in-france",
+      "https://www.nacel.org/en/contact",
+      "https://www.nacel.org/en",
+      "https://www.nacel.org/en/meet-the-team",
+      "https://www.nacel.org/en/homestay-programs",
+      "https://www.nacel.org/en/high-school-programs"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "+16513157880",
+      "+443308229918",
+      "+352263375370",
+      "+16513474580"
+    ],
+    "phonesUncertain": [
+      "+1 (651) 315-7880",
+      "651-315-7880",
+      "651 315 7880",
+      "+44 33 0822 9918",
+      "+352 263 375 370",
+      "34 958 223 368",
+      "65 75 55 00",
+      "651 347 4580"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/nacel-international",
+      "https://www.linkedin.com/in/celine-gibassier-101258205"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/nacelinternational",
+      "https://www.instagram.com/nacel_educationaltravel"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/NacelInternational"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/@NacelOrg",
+      "https://www.youtube.com/user/NacelTV"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.efjapan.co.jp/pg/koukou-ryugaku/uk",
+    "domain": "efjapan.co.jp",
+    "scrapedUrls": [
+      "https://www.efjapan.co.jp/pg/koukou-ryugaku/uk/",
+      "https://www.efjapan.co.jp/legal/contact-us/",
+      "https://www.efjapan.co.jp/contact/",
+      "https://www.efjapan.co.jp/about-us/press/",
+      "https://www.efjapan.co.jp/about-us/",
+      "https://www.efjapan.co.jp/",
+      "https://www.efjapan.co.jp/blog/",
+      "https://www.efjapan.co.jp/working-holiday/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "+05017431430",
+      "05017431430"
+    ],
+    "phonesUncertain": [
+      "150-6236",
+      "050-1743-1430",
+      "19651965"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/ef-education-first"
+    ],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [
+      "https://www.youtube.com/watch?v=YvRvBALncw8\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://www.youtube.com/watch?v=YvRvBALncw8"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.ace-study.com/kuni/uk.html",
+    "domain": "ace-study.com",
+    "scrapedUrls": [
+      "https://www.ace-study.com/kuni/uk.html",
+      "https://www.ace-study.com/koko/koko_qa.html",
+      "https://www.ace-study.com/kokan/kokan_qa.html",
+      "https://www.ace-study.com/",
+      "https://www.ace-study.com/test/eltis.html",
+      "https://www.ace-study.com/main/kaisya.html",
+      "https://www.ace-study.com/top/sitemap.html",
+      "https://www.ace-study.com/postmail/postmail.html"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "0822111341",
+      "082111341"
+    ],
+    "phonesUncertain": [
+      "082-211-1341",
+      "730-0013",
+      "082-211-1342",
+      "3420080",
+      "0810014",
+      "1810014",
+      "0210014",
+      "1710014",
+      "082-222-1906",
+      "101-1234",
+      "03-1234-7878",
+      "090-1234-7878"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [
+      "https://www.youtube.com/embed/AkYDR0JJycs"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.lets.ecc.jp/country/uk",
+    "domain": "ecc.jp",
+    "scrapedUrls": [
+      "https://www.lets.ecc.jp/country/uk",
+      "https://www.lets.ecc.jp/purpose/c-work",
+      "https://www.lets.ecc.jp/faq",
+      "https://www.lets.ecc.jp/event",
+      "https://www.lets.ecc.jp/",
+      "https://www.lets.ecc.jp/#",
+      "https://www.lets.ecc.jp/start#01",
+      "https://www.lets.ecc.jp/request/"
+    ],
+    "depth": 0,
+    "emails": [
+      "ryugaku@ecc.co.jp"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "03-5338-9144",
+      "052-561-0146",
+      "06-6131-1446",
+      "543-1234"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/eccgoabroad"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/lets.ecc.jp"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.ef.fr/pg/sejour-linguistique-ado-angleterre",
+    "domain": "ef.fr",
+    "scrapedUrls": [
+      "https://www.ef.fr/pg/sejour-linguistique-ado-angleterre/",
+      "https://www.ef.fr/about-us/",
+      "https://www.ef.fr/legal/contact-us/",
+      "https://www.ef.fr/legal/impressum/",
+      "https://www.ef.fr/contact/",
+      "https://www.ef.fr/blog/",
+      "https://www.ef.fr/",
+      "https://www.ef.fr/pg/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "0142614626",
+      "+0142614626"
+    ],
+    "phonesUncertain": [
+      "01 42 61 46",
+      "0142615022",
+      "108.485.630",
+      "116.289.657",
+      "075100204"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [
+      "https://www.youtube.com/watch?v=84ovwaR3v-s",
+      "https://www.youtube.com/watch?v=XaSWqZofOn4",
+      "https://www.youtube.com/watch?v=c3BWXSBajqo",
+      "https://www.youtube.com/watch?v=nq7SNuQkmwE",
+      "https://www.youtube.com/watch?v=q1Ap2F4nie0",
+      "https://www.youtube.com/watch?v=YvRvBALncw8\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://www.youtube.com/watch?v=YvRvBALncw8",
+      "https://www.youtube.com/watch?v=A-ZWJMao-Fk"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.teenlife.com/l/summer/nacel-international-travel-summer-camps",
+    "domain": "teenlife.com",
+    "scrapedUrls": [
+      "https://www.teenlife.com/l/summer/nacel-international-travel-summer-camps/",
+      "https://www.teenlife.com/about-us/",
+      "https://www.teenlife.com/how-it-works-for-educators-advisors/",
+      "https://www.teenlife.com/meet-the-team/",
+      "https://www.teenlife.com/guest-blog-policy/",
+      "https://www.teenlife.com/blog/",
+      "https://www.teenlife.com/business-blog/",
+      "https://www.teenlife.com/category/summer/"
+    ],
+    "depth": 0,
+    "emails": [
+      "support@teenlife.com",
+      "brenda@teenlife.com",
+      "bmitchell@collegeadvisor.com",
+      "cmoehn@collegeadvisor.com",
+      "dustin@teenlife.com",
+      "gina@teenlife.com",
+      "jmaloto@collegeadvisor.com",
+      "jen@teenlife.com",
+      "nancy@teenlife.com",
+      "regan@teenlife.com",
+      "dev@teenlife.com"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "202420252026202",
+      "720282029203020",
+      "0037-1165"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/teenlife-media",
+      "https://www.linkedin.com/in/brenda-boos",
+      "https://www.linkedin.com/in/brianmitchell6",
+      "https://www.linkedin.com/in/cody-moehn-846b26127",
+      "https://www.linkedin.com/in/dsilvaer",
+      "https://www.linkedin.com/in/gmmessina",
+      "https://www.linkedin.com/in/jaydenmaloto",
+      "https://www.linkedin.com/in/jennifer-fisher-1b946aa8",
+      "https://www.linkedin.com/in/-nancy-li",
+      "https://www.linkedin.com/in/regan-beiermann"
+    ],
+    "twitters": [
+      "https://x.com/TeenLifeMedia"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/teenlifemedia",
+      "https://www.instagram.com/nacelinternational"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/TeenLife",
+      "https://www.facebook.com/NacelInternational"
+    ],
+    "youtubes": [
+      "https://youtube.com/playlist"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.highschool-world.com/5111",
+    "domain": "highschool-world.com",
+    "scrapedUrls": [
+      "https://www.highschool-world.com/5111",
+      "https://www.highschool-world.com/about",
+      "https://www.highschool-world.com/support",
+      "https://www.highschool-world.com/school-list/canada",
+      "https://www.highschool-world.com/school-list/usa",
+      "https://www.highschool-world.com/school-list/newzealand",
+      "https://www.highschool-world.com/form/form_siryo",
+      "https://www.highschool-world.com/school"
+    ],
+    "depth": 0,
+    "emails": [
+      "info5@d-sidejp.com"
+    ],
+    "phones": [
+      "050-3644-0996"
+    ],
+    "phonesUncertain": [
+      "7246607",
+      "+81353414620",
+      "050-3644-0996",
+      "160-0022",
+      "530-0001"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/dside_study_abroad"
+    ],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://edulux-travel.com",
+    "domain": "edulux-travel.com",
+    "scrapedUrls": [
+      "https://edulux-travel.com/",
+      "https://edulux-travel.com/about-us/",
+      "https://edulux-travel.com/contact/",
+      "https://edulux-travel.com/",
+      "https://edulux-travel.com/faq/",
+      "https://edulux-travel.com/how-it-works/",
+      "https://edulux-travel.com/how-it-works/",
+      "https://edulux-travel.com/our-educational-trips/"
+    ],
+    "depth": 0,
+    "emails": [
+      "sales@edulux-travel.com"
+    ],
+    "phones": [
+      "+96877325929"
+    ],
+    "phonesUncertain": [
+      "+96877325929",
+      "+968 7732 5929"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/in/edulux-travel-53747b336"
+    ],
+    "twitters": [
+      "https://x.com/edulux_travel"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/edulux_travel"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/profile.php?id=61565579383358",
+      "https://www.facebook.com/eduluxtravel"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/@eduluxtravels"
+    ],
+    "tiktoks": [
+      "http://www.tiktok.com/@eduluxtravels"
+    ],
+    "pinterests": [
+      "https://www.pinterest.com/eduluxtravel"
+    ],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://api.whatsapp.com/send?phone=96877325929",
+      "https://wa.me/+96877325929"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.decouvrirlemonde.jeunes.gouv.fr/partir-en-sejour-linguistique-81",
+    "domain": "jeunes.gouv.fr",
+    "scrapedUrls": [
+      "https://www.decouvrirlemonde.jeunes.gouv.fr/partir-en-sejour-linguistique-81",
+      "https://www.decouvrirlemonde.jeunes.gouv.fr/pourquoi-partir-40",
+      "https://www.decouvrirlemonde.jeunes.gouv.fr/preparer-mon-projet",
+      "https://www.decouvrirlemonde.jeunes.gouv.fr/trouve-ton-programme",
+      "https://www.decouvrirlemonde.jeunes.gouv.fr/temoignages-70",
+      "https://www.decouvrirlemonde.jeunes.gouv.fr/ressources",
+      "https://www.decouvrirlemonde.jeunes.gouv.fr/",
+      "https://www.decouvrirlemonde.jeunes.gouv.fr/#"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "122232425262728",
+      "141516171819202",
+      "29303132333435",
+      "345678910111213",
+      "102050100"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/jeunes.gouv"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/jeunes.gouv.fr"
+    ],
+    "youtubes": [
+      "www.youtube.com/watch?v=zh4NMAhvIdo"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.ryugaku.co.jp/short/course/gbir",
+    "domain": "ryugaku.co.jp",
+    "scrapedUrls": [
+      "https://www.ryugaku.co.jp/short/course/gbir/",
+      "https://www.ryugaku.co.jp/contents/contact/",
+      "https://www.ryugaku.co.jp/rjcolumn/kliveexpress/",
+      "https://www.ryugaku.co.jp/work/",
+      "https://www.ryugaku.co.jp/career/corp/",
+      "https://www.ryugaku.co.jp/career/",
+      "https://www.ryugaku.co.jp/support/",
+      "https://www.ryugaku.co.jp/support/center/"
+    ],
+    "depth": 0,
+    "emails": [
+      "rj-futai@ryugaku.co.jp",
+      "rj-pr@ryugaku.co.jp",
+      "rj-webmaster@ryugaku.co.jp",
+      "rj-online@ryugaku.co.jp",
+      "rj-careerbiz@ryugaku.co.jp"
+    ],
+    "phones": [
+      "0120890987",
+      "0120-890-987",
+      "0353124421",
+      "0522498894",
+      "0647977821",
+      "0927178821"
+    ],
+    "phonesUncertain": [
+      "0120-890-987",
+      "160-0016",
+      "03-5312-4421",
+      "460-0008",
+      "052-249-8894",
+      "530-0001",
+      "06-4797-7821",
+      "730-0032",
+      "082-546-2371",
+      "082-546-2373",
+      "810-0001",
+      "092-717-8821",
+      "1562726",
+      "2026.01.26",
+      "2026.01.27",
+      "2025.12.12",
+      "2022.02.08",
+      "2021.09.02",
+      "2026.03.04",
+      "2025.12.11",
+      "2026.01.22",
+      "2023.04.17",
+      "2026.03.31",
+      "2026.02.16",
+      "2024.11.07",
+      "2024.07.02",
+      "2025.09.30",
+      "2024.06.14",
+      "2025.10.30",
+      "2026.04.09",
+      "2025.07.24",
+      "2025.12.19",
+      "2026.03.19",
+      "2020.12.09",
+      "2021.10.26",
+      "2021.11.16",
+      "2022.03.30",
+      "2022.08.29",
+      "2026.02.02",
+      "2026.01.13",
+      "2026.03.13",
+      "2026.02.09",
+      "2021.06.14",
+      "2021.05.10",
+      "2021.10.29",
+      "2023.12.20",
+      "2023.12.18",
+      "2024.02.27",
+      "2020.11.01",
+      "2023.11.16"
+    ],
+    "linkedIns": [],
+    "twitters": [
+      "https://x.com/RJO_Official"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/ryugakujournal"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/RyugakuJournal"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/ryugakujournal",
+      "https://www.youtube.com/embed/EYBu1iiUh7o"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://robin-guardian.com",
+    "domain": "robin-guardian.com",
+    "scrapedUrls": [
+      "https://robin-guardian.com/",
+      "https://robin-guardian.com/contact-us/",
+      "https://robin-guardian.com/faq/",
+      "https://robin-guardian.com/service/englishlesson/",
+      "https://robin-guardian.com/service/",
+      "https://robin-guardian.com/",
+      "https://robin-guardian.com/service/teachershomestay/",
+      "https://robin-guardian.com/service/services/"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@robinedu.com",
+      "csi@nifty.com",
+      "flexitravelstudy@gmail.com"
+    ],
+    "phones": [
+      "092-844-4572"
+    ],
+    "phonesUncertain": [
+      "092-844-4572",
+      "2026.04.01",
+      "2026.03.11",
+      "2026.03.06",
+      "2025.10.17",
+      "2025.10.04",
+      "2025.05.26",
+      "3397937",
+      "2428119",
+      "092-844-4535",
+      "810-0001",
+      "1770958524774"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/robineducationltd"
+    ],
+    "facebooks": [],
+    "youtubes": [
+      "https://www.youtube.com/embed/K3z37O5zekc",
+      "https://www.youtube.com/channel/UC2y106xSN2uDv2CPBLQgqxg"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.sejour-linguistique-lec.fr/sejour-linguistique/angleterre",
+    "domain": "sejour-linguistique-lec.fr",
+    "scrapedUrls": [
+      "https://www.sejour-linguistique-lec.fr/sejour-linguistique/angleterre",
+      "https://www.sejour-linguistique-lec.fr/date-sejour-linguistique/date-sejour-linguistique-angleterre-college-intelligence-artificielle",
+      "https://www.sejour-linguistique-lec.fr/faq/temoignages-de-jeunes-deja-partis-avec-lec",
+      "https://www.sejour-linguistique-lec.fr/detail-de-nos-tarifs-tout-inclus",
+      "https://www.sejour-linguistique-lec.fr/#",
+      "https://www.sejour-linguistique-lec.fr/lec",
+      "https://www.sejour-linguistique-lec.fr/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "01 42 67 75",
+      "158490574"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/lec_sejours"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/sejour.linguistique.LEC"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://sguhakedu.com/uk-language-school",
+    "domain": "sguhakedu.com",
+    "scrapedUrls": [
+      "http://sguhakedu.com/uk-language-school"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.ialc.org/agency/agence-babel",
+    "domain": "ialc.org",
+    "scrapedUrls": [
+      "https://www.ialc.org/agency/agence-babel",
+      "https://www.ialc.org/about-us/the-ialc-mission/",
+      "https://www.ialc.org/about-us/",
+      "https://www.ialc.org/about-us/history/",
+      "https://www.ialc.org/contact-us/complaints/",
+      "https://www.ialc.org/about-us/team/",
+      "https://www.ialc.org/contact-us/",
+      "https://www.ialc.org/contact-us/newsletter-signup/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "+41 22 321 62",
+      "+44 1227 769007",
+      "09158586",
+      "1929-2005"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/ialc-international-association-of-language-centres",
+      "https://uk.linkedin.com/in/jane-dancaster-5b2093a",
+      "https://www.linkedin.com/in/alexandraborgessousa",
+      "https://www.linkedin.com/in/anna-diaz-48569a294",
+      "https://www.linkedin.com/in/blanca-roters-coca-29a493108",
+      "https://www.linkedin.com/in/darren-conway-a261839",
+      "https://www.linkedin.com/in/justin-quinn-20939b14"
+    ],
+    "twitters": [
+      "https://twitter.com/ialc_languages"
+    ],
+    "instagrams": [
+      "https://instagram.com/ialc.languages",
+      "https://www.instagram.com/dnivalenciaa"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/ialc.org"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/IALCvideos",
+      "https://www.youtube.com/watch?v=gQ48VlHVDIc"
+    ],
+    "tiktoks": [],
+    "pinterests": [
+      "https://uk.pinterest.com/ialclanguages"
+    ],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.quality-english.com/agent-school/the-english-language-centre-elc-chester",
+    "domain": "quality-english.com",
+    "scrapedUrls": [
+      "https://www.quality-english.com/agent-school/the-english-language-centre-elc-chester/",
+      "https://www.quality-english.com/about-us/who-we-are/",
+      "https://www.quality-english.com/about-us/resources/",
+      "https://www.quality-english.com/learn-more-about-our-events/",
+      "https://www.quality-english.com/about-us/",
+      "https://www.quality-english.com/contact/newsletter/",
+      "https://www.quality-english.com/about-us/our-schools/",
+      "https://www.quality-english.com/contact/get-in-touch/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "+4401491828960"
+    ],
+    "phonesUncertain": [
+      "4634472",
+      "+44 1491 828960",
+      "+4401491828960"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/quality-english",
+      "https://www.linkedin.com/in/jonathan-swindell-8899b035",
+      "https://www.linkedin.com/in/kathigerth",
+      "https://www.linkedin.com/in/romy29",
+      "https://www.linkedin.com/in/carolynblackmore",
+      "https://www.linkedin.com/in/timothyblake",
+      "https://www.linkedin.com/in/valery-cullen-73973565",
+      "https://www.linkedin.com/in/sean-legault-58b43625",
+      "https://www.linkedin.com/in/garth-younghusband-65923626"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/qualityenglish"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/qualityenglish"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/@QualityEnglish1",
+      "https://www.youtube.com/embed/8pjwfvF4rJE"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.englishuk.com/partner-agency-directory",
+    "domain": "englishuk.com",
+    "scrapedUrls": [
+      "https://www.englishuk.com/partner-agency-directory",
+      "https://www.englishuk.com/en/about-us",
+      "https://www.englishuk.com/resources-and-reports/uk-elt-data",
+      "https://www.englishuk.com/contact-us",
+      "https://www.englishuk.com/getting-into-tefl",
+      "https://www.englishuk.com/en/about-us/join-english-uk/he-fe-associate-members",
+      "https://www.englishuk.com/en/about-us/news-press/english-uk-news",
+      "https://www.englishuk.com/en/about-us/representing-uk-elt/press-releases"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@3esse.com",
+      "info@academicfamilies.com",
+      "info@academix.com.tr",
+      "info@academlux.com",
+      "leonor@cursosaccess.com",
+      "info@activestudyuk.com",
+      "martaarderiu@where-what.com",
+      "zislam@ahzassociates.co.uk",
+      "kate@ahlameducation.com",
+      "business@directksa.com",
+      "contact@allterra.ru",
+      "Study@alsarh.com.sa",
+      "info@angelstream.com",
+      "andras@angolnyar.hu",
+      "info@armadagrandee.com",
+      "info@atava.co.uk",
+      "sinem@atlasedu.com",
+      "info@ausoniaviaggi.it",
+      "contato@beeducation.tur.br",
+      "advisor@bestparents.com",
+      "info@englishuk.com",
+      "roz@englishuk.com",
+      "press@englishuk.com"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "+39 033 118314",
+      "+44 131 331 3317",
+      "+90 21224994",
+      "+375292331155",
+      "+58-412-264544",
+      "+44 78094062",
+      "+34 93 414223",
+      "+44 20 737796",
+      "+96 89947370",
+      "+966115122170",
+      "812 3136445",
+      "2343-8074",
+      "+96 61149411",
+      "727 2920330",
+      "07523385655",
+      "+90 850 480 46",
+      "+44 20 365132",
+      "+902122495310",
+      "0039091585555",
+      "01405900",
+      "+55 11 328601",
+      "12132923306",
+      "+44 20 7608 7960",
+      "1108792",
+      "5120951"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/english-uk"
+    ],
+    "twitters": [
+      "https://twitter.com/englishuk"
+    ],
+    "instagrams": [],
+    "facebooks": [
+      "https://www.facebook.com/englishukonline"
+    ],
+    "youtubes": [
+      "http://www.youtube.com/user/EnglishUKWeb"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://growuniqueinternational.com/about.html",
+    "domain": "growuniqueinternational.com",
+    "scrapedUrls": [
+      "http://growuniqueinternational.com/about.html",
+      "http://growuniqueinternational.com/about.html",
+      "http://growuniqueinternational.com/contact.html",
+      "http://growuniqueinternational.com/blog.html",
+      "http://growuniqueinternational.com/#",
+      "http://growuniqueinternational.com/service.html",
+      "http://growuniqueinternational.com/index.html",
+      "http://growuniqueinternational.com/job-recruitment.html"
+    ],
+    "depth": 0,
+    "emails": [
+      "growuniqueinternational@gmail.com"
+    ],
+    "phones": [
+      "+919037532249"
+    ],
+    "phonesUncertain": [
+      "+91 85909342",
+      "+91 90375322"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [
+      "https://www.youtube.com/embed/BkLR1vXVu8w",
+      "https://www.youtube.com/embed/YLMefR6UfCA",
+      "https://www.youtube.com/embed/IY9DS2mtKNY"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://api.whatsapp.com/send?phone=919037532249"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.ask-ec.com/summer_camp.html",
+    "domain": "ask-ec.com",
+    "scrapedUrls": [
+      "https://www.ask-ec.com/summer_camp.html",
+      "https://www.ask-ec.com/about_ask.html",
+      "https://www.ask-ec.com/about_ask/ask_education_centre_summer_reviews.html",
+      "https://www.ask-ec.com/work_with_us.html",
+      "https://www.ask-ec.com/contact.html",
+      "https://www.ask-ec.com/CHARTERHOUSE_SUMMER_SCHOOL.html",
+      "https://www.ask-ec.com/harrow_summer_school.html",
+      "https://www.ask-ec.com/summer_school.html"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@ask-ec.com",
+      "ask.summerschool@gmail.com",
+      "info@ask-e.com"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "176-0002"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.amsteroverseas.com/StudyAbroad/UK",
+    "domain": "amsteroverseas.com",
+    "scrapedUrls": [
+      "https://www.amsteroverseas.com/StudyAbroad/UK",
+      "https://www.amsteroverseas.com/Immigration/EXPRESS-ENTRY",
+      "https://www.amsteroverseas.com/About/CEOs-Message",
+      "https://www.amsteroverseas.com/Contact",
+      "https://www.amsteroverseas.com/About/Why-Amster",
+      "https://www.amsteroverseas.com/Our_Team",
+      "https://www.amsteroverseas.com/Immigration/Work-Settle-in-Poland-1",
+      "https://www.amsteroverseas.com/Immigration/Croatia-Work-Permits"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@amsteroverseas.com",
+      "info@amsteroverseas.ae",
+      "hrplacement@amsteroverseas.in",
+      "info@dlschool.online"
+    ],
+    "phones": [
+      "919066555666"
+    ],
+    "phonesUncertain": [
+      "+91 90665556",
+      "+971 05273866",
+      "+91 90665",
+      "+971 52738660",
+      "2024-2026",
+      "+919066555666",
+      "+9710527386602",
+      "+96896703027",
+      "8590623456",
+      "8893723456",
+      "9072178888",
+      "+91 90721788",
+      "97102671495",
+      "+971 50904934",
+      "+919072178888",
+      "+91 90721",
+      "2014-2016",
+      "+971509049345",
+      "2927263"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/amster-immigration"
+    ],
+    "twitters": [
+      "https://twitter.com/amster_group"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/amsteroverseas"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/amsteroverseas"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/channel/UCQ33fePMsXc-ploQGgfMdRA"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/7994999995",
+      "https://wa.me/+919066555666",
+      "https://wa.me/+9710527386602"
+    ]
+  },
+  {
+    "originalStartUrl": "https://paragoneducation.pk/study-abroad-consultants-rahim-yar-khan",
+    "domain": "paragoneducation.pk",
+    "scrapedUrls": [
+      "https://paragoneducation.pk/study-abroad-consultants-rahim-yar-khan/",
+      "https://paragoneducation.pk/contact-us/",
+      "https://paragoneducation.pk/about-us/#vision",
+      "https://paragoneducation.pk/about-us/",
+      "https://paragoneducation.pk/our-services/career-advice/",
+      "https://paragoneducation.pk/careers/",
+      "https://paragoneducation.pk/blog/",
+      "https://paragoneducation.pk/faqs/"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@paragoneducation.com"
+    ],
+    "phones": [
+      "+923108133871"
+    ],
+    "phonesUncertain": [
+      "111 444 386",
+      "+923108133871"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/paragon-overseas-education"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/paragoneducation.pk"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/paragonoverseaseducation"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/channel/UC315vOj_BZ9GRcZENO02ApQ"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@paragoneducation.pk"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://student-ways.com",
+    "domain": "student-ways.com",
+    "scrapedUrls": [
+      "https://student-ways.com/",
+      "https://student-ways.com/contact-us/",
+      "https://student-ways.com/about-us/",
+      "https://student-ways.com/new-zealand-student-visa-update-increased-work-rights-and-new-rules-from-november-2025/",
+      "https://student-ways.com/",
+      "https://student-ways.com/real-people-real-stories/",
+      "https://student-ways.com/work-with-us/",
+      "https://student-ways.com/#"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@student-ways.com",
+      "Info@student-ways.com"
+    ],
+    "phones": [
+      "+923018275939",
+      "+02135886653"
+    ],
+    "phonesUncertain": [
+      "+92 301 827593",
+      "(021) 35886653"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/studentways",
+      "https://www.linkedin.com/in/luqmanthekhan"
+    ],
+    "twitters": [
+      "https://x.com/WaysStudent"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/student_ways",
+      "https://www.instagram.com/luqmanthekhan"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/WaysStudent"
+    ],
+    "youtubes": [
+      "https://youtube.com/@studentways6358"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/+923018275939"
+    ]
+  },
+  {
+    "originalStartUrl": "https://hajimeteryugaku.com",
+    "domain": "hajimeteryugaku.com",
+    "scrapedUrls": [
+      "https://hajimeteryugaku.com/",
+      "https://hajimeteryugaku.com/#section-24",
+      "https://hajimeteryugaku.com/#section-48",
+      "https://hajimeteryugaku.com/#section-13",
+      "https://hajimeteryugaku.com/#section-49",
+      "https://hajimeteryugaku.com/#section-66",
+      "https://hajimeteryugaku.com/#section-58",
+      "https://hajimeteryugaku.com/#section-15"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "045-869-5800",
+      "0458695800"
+    ],
+    "phonesUncertain": [
+      "045-869-5800",
+      "244-0817"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/english.village.paju",
+      "https://www.instagram.com/su.zan.355",
+      "https://www.instagram.com/mybodwellsummer"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/TamwoodJuniorCentres",
+      "https://www.facebook.com/profile.php?id=100012785710343",
+      "https://www.facebook.com/search"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.ef.edu.pt/pg/intercambio/ingles",
+    "domain": "ef.edu.pt",
+    "scrapedUrls": [
+      "https://www.ef.edu.pt/pg/intercambio/ingles/",
+      "https://www.ef.edu.pt/about-us/",
+      "https://www.ef.edu.pt/legal/contact-us/",
+      "https://www.ef.edu.pt/contact/",
+      "https://www.ef.edu.pt/pg/",
+      "https://www.ef.edu.pt/blog/",
+      "https://www.ef.edu.pt/",
+      "https://www.ef.edu.pt/pg/intercambio/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "213173470",
+      "+213173470"
+    ],
+    "phonesUncertain": [
+      "21 317 3470",
+      "1250-068",
+      "19881990"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [
+      "https://www.youtube.com/watch?v=YvRvBALncw8\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://www.youtube.com/watch?v=YvRvBALncw8",
+      "https://www.youtube.com/watch?v=A-ZWJMao-Fk"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://informationplanet.com.br/cursos",
+    "domain": "informationplanet.com.br",
+    "scrapedUrls": [
+      "https://informationplanet.com.br/cursos/",
+      "https://informationplanet.com.br/#slide-out-widget-area",
+      "https://informationplanet.com.br/",
+      "https://informationplanet.com.br/#",
+      "https://informationplanet.com.br/agencias/",
+      "https://informationplanet.com.br/destinos/",
+      "https://informationplanet.com.br/sobre-a-ip/",
+      "https://informationplanet.com.br/blog/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "+55 11 5186",
+      "07.160.033"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/informationplanet"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/informationplanet"
+    ],
+    "facebooks": [
+      "facebook.com/informationplanetbrasil"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/channel/UCOyt-jWXHT9XMo5UGfztSLg",
+      "https://www.youtube.com/watch?v=UFSs458mwms"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://api.whatsapp.com/send?phone=5511947880322",
+      "https://api.whatsapp.com/send?phone=553180406803",
+      "https://api.whatsapp.com/send?phone=5571996688737"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.junior-ryugaku.net/camp",
+    "domain": "junior-ryugaku.net",
+    "scrapedUrls": [
+      "https://www.junior-ryugaku.net/camp/",
+      "https://www.junior-ryugaku.net/contact2/",
+      "https://www.junior-ryugaku.net/contact2/",
+      "https://www.junior-ryugaku.net/contact/",
+      "https://www.junior-ryugaku.net/contact/",
+      "https://www.junior-ryugaku.net/support/",
+      "https://www.junior-ryugaku.net/blog/",
+      "https://www.junior-ryugaku.net/faq/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "0120036733"
+    ],
+    "phonesUncertain": [
+      "+81333459360",
+      "2006-2023",
+      "012345678910111",
+      "2131415161718"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://marshallservices.it/en/scuola/vacation-study-english-course-at-elc-sydney",
+    "domain": "marshallservices.it",
+    "scrapedUrls": [
+      "http://marshallservices.it/en/scuola/vacation-study-english-course-at-elc-sydney/",
+      "https://marshallservices.it/en/about/",
+      "https://marshallservices.it/en/contact/",
+      "https://marshallservices.it/",
+      "https://marshallservices.it/en/faq/",
+      "https://marshallservices.it/",
+      "https://marshallservices.it/en/practical-information/",
+      "https://marshallservices.it/en/how-enrollment-works/"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@marshallservices.it"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "+39 06 35 29",
+      "+39 06 49 77",
+      "337460543627"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/marshall_language_services"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/marshall.language.services"
+    ],
+    "youtubes": [
+      "www.youtube.com/embed/juxWFJh_bYU"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.tigres-vsa.com/sponsors/wanderlust",
+    "domain": "tigres-vsa.com",
+    "scrapedUrls": [
+      "https://www.tigres-vsa.com/sponsors/wanderlust",
+      "https://www.tigres-vsa.com/aboutus",
+      "https://www.tigres-vsa.com/programs",
+      "https://www.tigres-vsa.com/who-we-are",
+      "https://www.tigres-vsa.com/our-purpose",
+      "https://www.tigres-vsa.com/financial-assistance",
+      "https://www.tigres-vsa.com/",
+      "https://www.tigres-vsa.com/#page"
+    ],
+    "depth": 0,
+    "emails": [
+      "soccer@tigres-vsa.com"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "212283773",
+      "1749854836611",
+      "778 953 5391",
+      "0079780",
+      "8079321",
+      "1712694897961",
+      "1719854490474",
+      "90134392",
+      "2012-2017",
+      "2997-4239",
+      "1709252001069",
+      "1709252001315",
+      "152467026566162",
+      "1709918687016",
+      "1218121",
+      "1709253151144",
+      "1709253156484",
+      "1709253152372",
+      "1734301808970",
+      "1734303157606",
+      "1734303157709",
+      "3254-5509-43",
+      "9933-96602",
+      "174008892",
+      "20240908",
+      "1723604669239",
+      "1000129469",
+      "1734584562599",
+      "1734584562661",
+      "20241216"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "http://instagram.com/tigresvancouver.academy",
+      "https://www.instagram.com/wanderlustcanadaa"
+    ],
+    "facebooks": [],
+    "youtubes": [
+      "https://youtube.com/@tigresvancouversocceracademy"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://catch-up-education.com/en/our-services-and-programs",
+    "domain": "catch-up-education.com",
+    "scrapedUrls": [
+      "http://catch-up-education.com/en/our-services-and-programs/",
+      "https://catch-up-education.com/en/contact-en/",
+      "https://catch-up-education.com/en/le-working-holiday-visa-en/",
+      "https://catch-up-education.com/en/our-mission-values/",
+      "https://catch-up-education.com/en/home/",
+      "https://catch-up-education.com/en/our-story/",
+      "https://catch-up-education.com/en/home/",
+      "https://catch-up-education.com/en/become-a-partner/"
+    ],
+    "depth": 0,
+    "emails": [
+      "support@catch-up-education.com",
+      "info@designagency.com"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "+61 449 262 770",
+      "62 26 95 70"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/in/sylvain-lolley-87305255"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/catchupeducation"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/catchupsydney",
+      "facebook.com/25129145543397769",
+      "facebook.com/6702354233200367",
+      "facebook.com/6860613307372784",
+      "facebook.com/7351004605018253",
+      "facebook.com/7414148428680260",
+      "facebook.com/7486449408136417",
+      "facebook.com/8258147837533337",
+      "facebook.com/5105405886188332",
+      "facebook.com/5556352804378339",
+      "facebook.com/5986842557993696"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.es-osaka.com",
+    "domain": "es-osaka.com",
+    "scrapedUrls": [
+      "https://www.es-osaka.com/",
+      "https://www.es-osaka.com/?doc=sub_16",
+      "https://www.es-osaka.com/?doc=sub_01&menu=3",
+      "https://www.es-osaka.com/?doc=sub_01&menu=2",
+      "https://www.es-osaka.com/?doc=sub_01&menu=1",
+      "https://www.es-osaka.com/?doc=sub_04",
+      "https://www.es-osaka.com/?doc=sub_03",
+      "https://www.es-osaka.com/?doc=sub_02"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@es-osaka.com"
+    ],
+    "phones": [
+      "06-6977-2630",
+      "06-6764-7785"
+    ],
+    "phonesUncertain": [
+      "537-0012",
+      "06-6977-2630",
+      "06 6977 2630",
+      "06 6977 2638"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/englishspot_osaka"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/EnglishSpotJapan"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.almaany.com/ar/dict/ar-en/%D8%A7%D9%84%D9%85%D8%B9%D8%B3%D9%83%D8%B1-%D8%A7%D9%84%D8%B5%D9%8A%D9%81%D9%8A",
+    "domain": "almaany.com",
+    "scrapedUrls": [
+      "https://www.almaany.com/ar/dict/ar-en/%D8%A7%D9%84%D9%85%D8%B9%D8%B3%D9%83%D8%B1-%D8%A7%D9%84%D8%B5%D9%8A%D9%81%D9%8A",
+      "https://www.almaany.com/ar/dict/ar-en/osmotic-pressure/",
+      "https://www.almaany.com/ar/login/",
+      "https://www.almaany.com/es/dict/ar-es/",
+      "https://www.almaany.com/ar/dict/ar-ar/",
+      "https://www.almaany.com/en/dict/ar-en/",
+      "https://www.almaany.com/ar/register/",
+      "https://www.almaany.com/ar/login/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "2010-2026",
+      "10 11 12 13"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://ipcgroup.com.sg/school-2",
+    "domain": "ipcgroup.com.sg",
+    "scrapedUrls": [
+      "https://ipcgroup.com.sg/school-2/",
+      "https://ipcgroup.com.sg/contact-us/",
+      "https://ipcgroup.com.sg/team-building/",
+      "https://ipcgroup.com.sg/blog/",
+      "https://ipcgroup.com.sg/faq/",
+      "https://ipcgroup.com.sg/",
+      "https://ipcgroup.com.sg/#",
+      "https://ipcgroup.com.sg/about-us/"
+    ],
+    "depth": 0,
+    "emails": [
+      "enquiry@ipcgroup.com.sg"
+    ],
+    "phones": [
+      "+6563385772",
+      "+6591474907"
+    ],
+    "phonesUncertain": [
+      "+65-6338-5772",
+      "103.8491",
+      "65-6338-5772",
+      "65-9147-4907",
+      "+65 91474907"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/ipc-group-singapore"
+    ],
+    "twitters": [
+      "https://twitter.com/IPCCommunity"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/ipcgroup.1"
+    ],
+    "facebooks": [
+      "facebook.com/IPCToursTravels"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/channel/UCOZXX3oacxx-DCj3cvaD-pA"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/+6596967624",
+      "https://wa.me/+6591474907"
+    ]
+  },
+  {
+    "originalStartUrl": "https://slttours.co.uk",
+    "domain": "slttours.co.uk",
+    "scrapedUrls": [
+      "https://slttours.co.uk/",
+      "https://slttours.co.uk/about-us/",
+      "https://slttours.co.uk/slt-team/",
+      "https://slttours.co.uk/faqs/",
+      "https://slttours.co.uk/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjQwMyIsInRvZ2dsZSI6ZmFsc2V9",
+      "https://slttours.co.uk/contact-us/",
+      "https://slttours.co.uk/",
+      "https://slttours.co.uk/blog/"
+    ],
+    "depth": 0,
+    "emails": [
+      "AlexWood@slttours.co.uk",
+      "AshleyYoung@slttours.co.uk",
+      "BeckyPowell@slttours.co.uk",
+      "Des@slttours.co.uk",
+      "HaydenCurtis@slttours.co.uk",
+      "Info@slttours.co.uk",
+      "JackRoper@slttours.co.uk",
+      "JakeTarbotton@slttours.co.uk",
+      "JamesClarke@slttours.co.uk",
+      "Jamie@slttours.co.uk",
+      "JennieThomson@slttours.co.uk",
+      "JessChew@slttours.co.uk",
+      "LeeAshforth@slttours.co.uk",
+      "LinseyAndrews@slttours.co.uk",
+      "LukeBooth@slttours.co.uk",
+      "Matthew@slttours.co.uk",
+      "SunilSharma@slttours.co.uk",
+      "WilliamWilson@slttours.co.uk",
+      "alexwood@slttours.co.uk",
+      "beckypowell@slttours.co.uk",
+      "info@slttours.co.uk",
+      "jackroper@slttours.co.uk",
+      "jaketarbotton@slttours.co.uk",
+      "jamie@slttours.co.uk",
+      "jesschew@slttours.co.uk",
+      "linseyandrews@slttours.co.uk"
+    ],
+    "phones": [
+      "+443303904140",
+      "03303904140",
+      "03330124361"
+    ],
+    "phonesUncertain": [
+      "0330 390 4140",
+      "3330 124 361",
+      "330 390 4140"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/slttours"
+    ],
+    "twitters": [
+      "https://www.twitter.com/slttours"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/slttours"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/slttours11"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/channel/UCVXzePi4VMBRQd0Ue9DCj-Q"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.tiktok.com/@re.abroad/video/7267173804714069254",
+    "domain": "tiktok.com",
+    "scrapedUrls": [
+      "https://www.tiktok.com/@re.abroad/video/7267173804714069254"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.languageinternational.co/cursos-ingles-reino-unido-inglaterra-summer-camp-790",
+    "domain": "languageinternational.co",
+    "scrapedUrls": [
+      "https://www.languageinternational.co/cursos-ingles-reino-unido-inglaterra-summer-camp-790",
+      "https://www.languageinternational.co/about-us",
+      "https://www.languageinternational.co/contact",
+      "https://www.languageinternational.co/about-li",
+      "https://www.languageinternational.co/jobs",
+      "https://www.languageinternational.co/",
+      "https://www.languageinternational.co/cursos-ingles",
+      "https://www.languageinternational.co/destinations"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.sprachcaffe.com/portuguese/jovens-escolher-escola.htm",
+    "domain": "sprachcaffe.com",
+    "scrapedUrls": [
+      "https://www.sprachcaffe.com/portuguese/jovens-escolher-escola.htm",
+      "https://www.sprachcaffe.com/portuguese/reserva-online.htm",
+      "https://www.sprachcaffe.com/en/uc/juniors/malta.htm",
+      "https://www.sprachcaffe.com/pt_br/uc/contato.htm",
+      "https://www.sprachcaffe.com/pt_br/uc/",
+      "https://www.sprachcaffe.com/pt_br/uc/catalogos.htm",
+      "https://www.sprachcaffe.com/pt_br/uc/juniores.htm",
+      "https://www.sprachcaffe.com/en/uc/juniors/england.htm"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "+552120423891",
+      "+35625701000"
+    ],
+    "phonesUncertain": [
+      "1998-2026",
+      "+55 (21) 2042-3891",
+      "+356 25 70 1000",
+      "25701000"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/sprachcaffe"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/sprachcaffe_br",
+      "https://www.instagram.com/sprachcaffe"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/SprachcaffeBrasil",
+      "https://www.facebook.com/Sprachcaffe"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/SprachcaffeLanguages",
+      "https://www.youtube.com/watch?v=zoqtLLu_dIc",
+      "https://www.youtube.com/watch?v=zNpgdMDpwpw",
+      "https://www.youtube.com/watch?v=_yP61pWyI88",
+      "https://www.youtube.com/watch?v=p3QRxMJ4Tuo",
+      "https://www.youtube.com/watch?v=DMubfd1M-uU",
+      "https://www.youtube.com/watch?v=dSQhEziuFVo",
+      "https://www.youtube.com/watch?v=-atcPM-IbwU",
+      "https://www.youtube.com/watch?v=VcGW4XdkdPw",
+      "https://www.youtube.com/watch?v=BblW-N2HtCc",
+      "https://www.youtube.com/watch?v=pqgE-BIPwrk",
+      "https://www.youtube.com/watch?v=QLgBT9sHexk",
+      "https://www.youtube.com/watch?v=HY56d-QBWpI",
+      "https://www.youtube.com/watch?v=D8wLHcNBXi8",
+      "https://www.youtube.com/watch?v=XdB2W5YJChs",
+      "https://www.youtube.com/watch?v=CxjRaOKUkaI",
+      "https://www.youtube.com/watch?v=IE8sOxETL5A",
+      "https://www.youtube.com/watch?v=cVzB1FI_v7U",
+      "https://www.youtube.com/watch?v=tH17mAk9p8Q"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@sprachcaffelanguagesplus"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/+552120423891",
+      "https://wa.me/+35625701000"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.ef.com.co/pg/campamentos-verano/inglaterra",
+    "domain": "ef.com.co",
+    "scrapedUrls": [
+      "https://www.ef.com.co/pg/campamentos-verano/inglaterra/",
+      "https://www.ef.com.co/about-us/",
+      "https://www.ef.com.co/legal/contact-us/",
+      "https://www.ef.com.co/",
+      "https://www.ef.com.co/blog/",
+      "https://www.ef.com.co/contact/",
+      "https://www.ef.com.co/pg/campamentos-verano/",
+      "https://www.ef.com.co/pg/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "6015802743",
+      "+6015802743"
+    ],
+    "phonesUncertain": [
+      "6015802743"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [
+      "https://www.youtube.com/watch?v=YvRvBALncw8\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://www.youtube.com/watch?v=YvRvBALncw8",
+      "https://www.youtube.com/watch?v=A-ZWJMao-Fk"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.ef.com.br/pg/intercambio",
+    "domain": "ef.com.br",
+    "scrapedUrls": [
+      "https://www.ef.com.br/pg/intercambio/",
+      "https://www.ef.com.br/about-us/",
+      "https://www.ef.com.br/legal/contact-us/",
+      "https://www.ef.com.br/contact/",
+      "https://www.ef.com.br/",
+      "https://www.ef.com.br/blog/",
+      "https://www.ef.com.br/#rendering__explore-destination",
+      "https://www.ef.com.br/pg/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "1121229000",
+      "+1121229000"
+    ],
+    "phonesUncertain": [
+      "(11) 2122-9000"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [
+      "https://www.youtube.com/watch?v=YvRvBALncw8\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://www.youtube.com/watch?v=YvRvBALncw8"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://boardingschoolsabroad.com/programas/campamentos-de-verano/campamento-verano-reino-unido",
+    "domain": "boardingschoolsabroad.com",
+    "scrapedUrls": [
+      "https://boardingschoolsabroad.com/programas/campamentos-de-verano/campamento-verano-reino-unido",
+      "https://boardingschoolsabroad.com/contacto/",
+      "https://boardingschoolsabroad.com/blog/",
+      "https://events.boardingschoolsabroad.com/evento-marbella-23-01-form",
+      "https://boardingschoolsabroad.com/",
+      "https://boardingschoolsabroad.com/programas/",
+      "https://boardingschoolsabroad.com/programas/colegios-internos/",
+      "https://boardingschoolsabroad.com/programas/colegios-internos/internados-en-canada/"
+    ],
+    "depth": 0,
+    "emails": [
+      "hello@boardingschoolsabroad.com"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "+34 686 309 155"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/boarding-schools-abroad-ltd"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/boarding_schools_abroad"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/boardingschoolsabroad"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/@BoardingSchoolsAbroadLimited",
+      "https://www.youtube.com/watch?v=hT7yqX4po3k"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/34690301556"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.ef.de/pg/jugendsprachreisen",
+    "domain": "ef.de",
+    "scrapedUrls": [
+      "https://www.ef.de/pg/jugendsprachreisen/",
+      "https://www.ef.de/legal/contact-us/",
+      "https://www.ef.de/legal/impressum/",
+      "https://www.ef.de/about-us/",
+      "https://www.ef.de/about-us/press/",
+      "https://www.ef.de/contact/",
+      "https://www.ef.de/",
+      "https://www.ef.de/blog/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "021168857000",
+      "+021168857000"
+    ],
+    "phonesUncertain": [
+      "0211 68857000",
+      "211 688 57 000",
+      "118548712",
+      "108.485.630",
+      "116.289.657",
+      "89 23 11 90",
+      "711 25996400",
+      "40 30039570",
+      "30 8562 18900",
+      "30 203 47 300",
+      "18.07.2025"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [
+      "https://www.youtube.com/watch?v=03OCkj2gS70",
+      "https://www.youtube.com/watch?v=08TwHvMrkDg",
+      "https://www.youtube.com/watch?v=0Llpni-xN0c",
+      "https://www.youtube.com/watch?v=106Y4um63lo",
+      "https://www.youtube.com/watch?v=22oxZbRB0o0",
+      "https://www.youtube.com/watch?v=3XTNUDuc6G4",
+      "https://www.youtube.com/watch?v=4omyH_hzegc",
+      "https://www.youtube.com/watch?v=59mytqeJ0H0",
+      "https://www.youtube.com/watch?v=6beqnQhSWmQ",
+      "https://www.youtube.com/watch?v=800DbTdyslg",
+      "https://www.youtube.com/watch?v=84ovwaR3v-s",
+      "https://www.youtube.com/watch?v=86eO2fyyPhM",
+      "https://www.youtube.com/watch?v=A-ZWJMao-Fk",
+      "https://www.youtube.com/watch?v=AXs0k4vqvuU",
+      "https://www.youtube.com/watch?v=DMEpDlqUVG4",
+      "https://www.youtube.com/watch?v=DbsyP39hDns",
+      "https://www.youtube.com/watch?v=DmX44h3RQes",
+      "https://www.youtube.com/watch?v=EDsL2X2siRU",
+      "https://www.youtube.com/watch?v=I-OBq-SfXVs",
+      "https://www.youtube.com/watch?v=Iv-Rc5wB9W0",
+      "https://www.youtube.com/watch?v=JXTBfdPxFaY",
+      "https://www.youtube.com/watch?v=KESVCA8Fud4",
+      "https://www.youtube.com/watch?v=KqM66JutZyA",
+      "https://www.youtube.com/watch?v=KriAhh00tJ4",
+      "https://www.youtube.com/watch?v=L9HG4u1883o",
+      "https://www.youtube.com/watch?v=M_F0UNsI0ks",
+      "https://www.youtube.com/watch?v=Nl1GlNV-zCs",
+      "https://www.youtube.com/watch?v=O0NTZxJZG48",
+      "https://www.youtube.com/watch?v=OCWvT4_RDQ0",
+      "https://www.youtube.com/watch?v=OOuY4Alhvxw",
+      "https://www.youtube.com/watch?v=OY4nveldhs8",
+      "https://www.youtube.com/watch?v=QoyUCTnL6nE",
+      "https://www.youtube.com/watch?v=S5IYusSXUE0",
+      "https://www.youtube.com/watch?v=UC_Kygz4yEw",
+      "https://www.youtube.com/watch?v=V7_Z48d4XQI",
+      "https://www.youtube.com/watch?v=WvH9A0aNNPk",
+      "https://www.youtube.com/watch?v=WyXgiQxS4sc",
+      "https://www.youtube.com/watch?v=XaSWqZofOn4",
+      "https://www.youtube.com/watch?v=c3BWXSBajqo",
+      "https://www.youtube.com/watch?v=d4HEq4V1Fow",
+      "https://www.youtube.com/watch?v=da3e5KHdeQE",
+      "https://www.youtube.com/watch?v=dcHURgOqStE",
+      "https://www.youtube.com/watch?v=e2Jhf61Tt5g",
+      "https://www.youtube.com/watch?v=ePdgtPCqusE",
+      "https://www.youtube.com/watch?v=eXaEgHSARJI",
+      "https://www.youtube.com/watch?v=j-2QW1X_g44",
+      "https://www.youtube.com/watch?v=ld-Vcne9UPE",
+      "https://www.youtube.com/watch?v=nq7SNuQkmwE",
+      "https://www.youtube.com/watch?v=p-occJch6_M",
+      "https://www.youtube.com/watch?v=q1Ap2F4nie0"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.sprachreisen.de/schueler/englisch/england",
+    "domain": "sprachreisen.de",
+    "scrapedUrls": [
+      "https://www.sprachreisen.de/schueler/englisch/england/",
+      "https://www.sprachreisen.de/impressum/",
+      "https://www.sprachreisen.de/informationen/ist-stellenangebote/",
+      "https://www.sprachreisen.de/kontakt/",
+      "https://www.sprachreisen.de/sprachreise-erstellen/",
+      "https://www.sprachreisen.de/newsletter-bestellen/",
+      "https://www.sprachreisen.de/veranstaltungen/",
+      "https://www.sprachreisen.de/tagcoud/sprachreisen-faq/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "6221 8900",
+      "162 322 248",
+      "89 00 100",
+      "89 00 120",
+      "89 00 130",
+      "89 00 200",
+      "01.05.2026",
+      "03.05.2026",
+      "04.05.2026",
+      "05.05.2026",
+      "06.05.2026",
+      "26.04.2026",
+      "27.04.2026",
+      "28.04.2026",
+      "29.04.2026",
+      "30.04.2026"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/istsprachreisen"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/ist.sprachreisen"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.jugendwerk-awo-reisen.de/sprachreisen",
+    "domain": "jugendwerk-awo-reisen.de",
+    "scrapedUrls": [
+      "https://www.jugendwerk-awo-reisen.de/sprachreisen",
+      "https://www.jugendwerk-awo-reisen.de/impressum",
+      "https://www.jugendwerk-awo-reisen.de/kontakt",
+      "https://www.jugendwerk-awo-reisen.de/teamer_werden",
+      "https://www.jugendwerk-awo-reisen.de/",
+      "https://www.jugendwerk-awo-reisen.de/zusch%C3%BCsse_und_f%C3%B6rderung",
+      "https://www.jugendwerk-awo-reisen.de/ferienfreizeiten_kinder_und_jugendreisen",
+      "https://www.jugendwerk-awo-reisen.de/reisen_mit_dem_jugendwerk"
+    ],
+    "depth": 0,
+    "emails": [
+      "support@jugendwerk-awo-reisen.de"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "0049 711"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.give-highschool.de",
+    "domain": "give-highschool.de",
+    "scrapedUrls": [
+      "https://www.give-highschool.de/",
+      "https://www.give-highschool.de/impressum/",
+      "https://www.give-highschool.de/kontakt/",
+      "https://www.give-highschool.de/ueber-give/katalogbestellung/",
+      "https://www.give-highschool.de/ueber-give/info-veranstaltungen/",
+      "https://www.give-highschool.de/ueber-give/faq/",
+      "https://www.give-highschool.de/usa/",
+      "https://www.give-highschool.de/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "+496221389350",
+      "06221389350"
+    ],
+    "phonesUncertain": [
+      "0622 1389 350",
+      "194 466 938"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/givehighschool"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/give.highschool"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://viajesyviajesestudios.com/agencias-de-estudios-en-el-exterior",
+    "domain": "viajesyviajesestudios.com",
+    "scrapedUrls": [
+      "https://viajesyviajesestudios.com/agencias-de-estudios-en-el-exterior/",
+      "https://viajesyviajesestudios.com/contacto/",
+      "https://viajesyviajesestudios.com/politica-de-privacidad-de-datos/",
+      "https://viajesyviajesestudios.com/programas-1/",
+      "https://viajesyviajesestudios.com/libro-de-reclamaciones/",
+      "https://viajesyviajesestudios.com/",
+      "https://viajesyviajesestudios.com/terminos-y-condiciones/",
+      "https://viajesyviajesestudios.com/#"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@viajesyviajes.com",
+      "info@viajesyviajesestudios.com"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "+573245938720",
+      "(604) 4756420",
+      "573245938720",
+      "(601) 7450488",
+      "316 5695297",
+      "304 296 33 67",
+      "60956036",
+      "(606) 3489710",
+      "3505813722",
+      "3013812060",
+      "394 5391",
+      "993 508855",
+      "263 0028",
+      "993478082",
+      "99 5032520",
+      "(511) 243 65",
+      "955 363 402",
+      "945421268",
+      "155 32048979",
+      "900041392",
+      "20600209532"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/viajes-y-viajes-experience"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/estudiosenelexterior"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/estudiosenelexterior"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/watch?v=VvpxmcE1LK4",
+      "https://www.youtube.com/estudiosenelexterior"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@viajesyviajesestudios"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://api.whatsapp.com/send?phone=573147706489",
+      "https://api.whatsapp.com/send?phone=573042963367",
+      "https://wa.me/50660956036",
+      "https://api.whatsapp.com/send?phone=573505813722",
+      "https://api.whatsapp.com/send?phone=573013812060",
+      "https://api.whatsapp.com/send?phone=593993478082",
+      "https://api.whatsapp.com/send?phone=593995032520",
+      "https://api.whatsapp.com/send?phone=51955363402",
+      "https://api.whatsapp.com/send?phone=56945421268",
+      "https://api.whatsapp.com/send?phone=5215532048979",
+      "https://api.whatsapp.com/send?phone=573245938720"
+    ]
+  },
+  {
+    "originalStartUrl": "https://icxchange.de",
+    "domain": "icxchange.de",
+    "scrapedUrls": [
+      "https://icxchange.de/schueleraustausch",
+      "https://icxchange.de/impressum",
+      "https://icxchange.de/presse",
+      "https://icxchange.de/icx-kontaktieren",
+      "https://icxchange.de/schueleraustausch-weltweit",
+      "https://icxchange.de/icx-en",
+      "https://icxchange.de/ueber-icx/icx-mitarbeiter/destinationen-und-programme",
+      "https://icxchange.de/schoolguest-neuseeland"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "1998-2026",
+      "16-182612",
+      "0441 92398",
+      "441 92398",
+      "01.03.2025",
+      "26.04.2025",
+      "15.10.2025",
+      "21.11.2025",
+      "23.11.2025",
+      "12.02.2026"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [
+      "http://www.facebook.com/ICXchange",
+      "www.facebook.com/ICXchange"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.dialog.de/sprachreise-schueler/englisch-england",
+    "domain": "dialog.de",
+    "scrapedUrls": [
+      "https://www.dialog.de/sprachreise-schueler/englisch-england",
+      "https://www.dialog.de/katalogbestellung/",
+      "https://www.dialog.de/impressum/",
+      "https://www.dialog.de/kontakt",
+      "https://www.dialog.de/kontakt/",
+      "https://www.dialog.de/ueber-uns/experten-team/",
+      "https://www.dialog.de/service/",
+      "https://www.dialog.de/ueber-uns/"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@simple-web-solutions.de"
+    ],
+    "phones": [
+      "+49761286470"
+    ],
+    "phonesUncertain": [
+      "1998-2026",
+      "0761 28 64 70",
+      "0761 28 63 08",
+      "0931 270577",
+      "+49 761 286308",
+      "+49 761 286470",
+      "0761 286470",
+      "0931 27057700"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/studylingua-group"
+    ],
+    "twitters": [
+      "https://twitter.com/dialog_de"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/studylingua_de"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/DIALOGsprachreisen"
+    ],
+    "youtubes": [],
+    "tiktoks": [
+      "https://www.tiktok.com/@studylingua_de"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.doiteducation.de/high-school-england",
+    "domain": "doiteducation.de",
+    "scrapedUrls": [
+      "https://www.doiteducation.de/high-school-england/",
+      "https://www.doiteducation.de/impressum/",
+      "https://www.doiteducation.de/kontakt/",
+      "https://www.doiteducation.de/social-media-stipendium/",
+      "https://www.doiteducation.de/katalogbestellung/",
+      "https://www.doiteducation.de/ueber-uns-unser-team/",
+      "https://www.doiteducation.de/blog/",
+      "https://www.doiteducation.de/blog/"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@doiteducation.de"
+    ],
+    "phones": [
+      "+494042937444",
+      "00494042937444"
+    ],
+    "phonesUncertain": [
+      "429 374 44",
+      "429 374 79",
+      "344351375",
+      "38-404021",
+      "330881890",
+      "369591902",
+      "09.03.2026"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/do-it-education-gmbh"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/doiteducation"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/educationdoit"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/channel/UChv9jMNw1bESBdM2SvvgJ-Q",
+      "https://www.youtube.com/c/DoitEducation"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@doiteducation"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/+4915153043007"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.stepin.de/schueleraustausch-england",
+    "domain": "stepin.de",
+    "scrapedUrls": [
+      "https://www.stepin.de/schueleraustausch-england/",
+      "https://www.stepin.de/impressum/",
+      "https://www.stepin.de/kontakt-uva/",
+      "https://www.stepin.de/blog/",
+      "https://www.stepin.de/ueber-uns/",
+      "https://www.stepin.de/schueleraustausch-kanada/",
+      "https://www.stepin.de/schueleraustausch-usa/",
+      "https://www.stepin.de/katalog/"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@stepin.de",
+      "beschwerde@versicherungsombudsmann.de"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "27.04.2026",
+      "79548133",
+      "06.02.2024",
+      "16.10.2023",
+      "13.10.2023",
+      "14745008",
+      "29.09.2023",
+      "25.09.202310",
+      "5424375764054",
+      "3265186",
+      "042972816570",
+      "068932554",
+      "6790328",
+      "0228-71005",
+      "0800 36960000",
+      "0800 36990000",
+      "206263025",
+      "228 22840",
+      "228 71005",
+      "14.05.2025",
+      "26515365",
+      "04.06.2024",
+      "31.05.2024",
+      "13.05.2024",
+      "18497564",
+      "842886600842625",
+      "0247705",
+      "26.09.2026",
+      "8609-1800",
+      "10.03.2026",
+      "14.01.2026",
+      "19.12.2025",
+      "416927761",
+      "18.12.2025",
+      "81039050",
+      "6001-768",
+      "70422341",
+      "17.04.2024",
+      "7309271",
+      "21.03.2024",
+      "18.03.2024",
+      "15.02.2024",
+      "06.05.2024",
+      "17.01.2024",
+      "388-1920",
+      "16.01.2024",
+      "5596017",
+      "08.01.2024"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/mystepin"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/myStepin",
+      "https://www.facebook.com/mystepin"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/mystepin"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@mystepin"
+    ],
+    "pinterests": [
+      "https://www.pinterest.com/mystepin"
+    ],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.ruf.de/sprachreisen",
+    "domain": "ruf.de",
+    "scrapedUrls": [
+      "https://www.ruf.de/sprachreisen",
+      "https://www.ruf.de/sprachreise/englisch/england/hostel-london",
+      "https://www.ruf.de/presse",
+      "https://www.ruf.de/service/impressum",
+      "https://www.ruf.de/sprachreise/englisch/malta/hotel-odycy-malta",
+      "https://www.ruf.de/kontakt",
+      "https://www.ruf.de/service/faq",
+      "https://www.ruf.de/"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@ruf.de",
+      "presse@ruf.de",
+      "Beschwerde@versicherungsombudsmann.de"
+    ],
+    "phones": [
+      "+49521962720",
+      "0521 962720"
+    ],
+    "phonesUncertain": [
+      "0521 962720",
+      "0176 10001829",
+      "4917610001829",
+      "49-521-962720",
+      "202602021605041",
+      "202510300907471",
+      "0521 96 27 607",
+      "0800 3696000",
+      "0800 3699000",
+      "1133609",
+      "179075516",
+      "521 962720",
+      "202509291114376",
+      "2974378",
+      "202604200948379",
+      "46014445"
+    ],
+    "linkedIns": [
+      "https://de.linkedin.com/company/rufjugendreisen"
+    ],
+    "twitters": [
+      "https://x.com/rufjugendreisen"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/rufjugendreisen"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/ruf.reisen"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/rufjugendreise"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@rufjugendreisen"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [
+      "https://www.snapchat.com/add/rufreisen"
+    ],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/4917610001829",
+      "https://api.whatsapp.com/send?phone=4917610001829"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.ertheo.com/campamentos-futbol-verano-inglaterra.htm",
+    "domain": "ertheo.com",
+    "scrapedUrls": [
+      "https://www.ertheo.com/campamentos-futbol-verano-inglaterra.htm",
+      "https://www.ertheo.com/contacto.htm",
+      "https://www.ertheo.com/blog/campamentos-futbol-invierno",
+      "https://www.ertheo.com/blog/programa-futbol-para-chicas",
+      "https://www.ertheo.com/faq.htm",
+      "https://www.ertheo.com/contacto.htm?id=62423",
+      "https://www.ertheo.com/blog/entrenamiento-futbol-porteros",
+      "https://www.ertheo.com/blog"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@ertheo.com"
+    ],
+    "phones": [
+      "0018572087249",
+      "0033170849040",
+      "0034902750359",
+      "0034930186626",
+      "0034951204061",
+      "00390287368972",
+      "00442037699442",
+      "00442037699443",
+      "00525541604495",
+      "00576017564047"
+    ],
+    "phonesUncertain": [
+      "02 87 368 972",
+      "170 849 040",
+      "203 769 94 43",
+      "554 160 44 95",
+      "601 75 64 047",
+      "857 208 72 49",
+      "902 750 359",
+      "93 018 6626",
+      "951 204 061",
+      "951 204 061080",
+      "00120001999199819",
+      "016201520142013",
+      "021222324252627",
+      "052004200320022",
+      "119401939193819",
+      "119701969196819",
+      "123456789101112",
+      "131415161718192",
+      "192919281927192",
+      "194419431942194",
+      "195919581957195",
+      "197419731972197",
+      "198919881987198",
+      "201220112010200",
+      "202019201820172",
+      "202720262025202",
+      "2219211920",
+      "28293031",
+      "371936193519341",
+      "420232022202120",
+      "521951195019491",
+      "619251924192319",
+      "619551954195319",
+      "619851984198319",
+      "671966196519641",
+      "821981198019791",
+      "920082007200620",
+      "933193219311930",
+      "948194719461945",
+      "963196219611960",
+      "971996199519941",
+      "978197719761975",
+      "993199219911990",
+      "+34 951 20 40"
+    ],
+    "linkedIns": [],
+    "twitters": [
+      "https://x.com/ertheo_es"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/ertheo_es"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/ertheo"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/@Ertheo",
+      "https://www.youtube.com/embed/-wFvWdTGOus",
+      "https://www.youtube.com/embed/U84GhhejYCU",
+      "https://www.youtube.com/embed/hAJbI_JrWA0",
+      "https://www.youtube.com/embed/W1m0ucspVHQ",
+      "https://www.youtube.com/embed/rVvBpagAVEQ",
+      "https://www.youtube.com/embed/1uoxvih4GKE",
+      "https://www.youtube.com/embed/dkKwhNbKkt4",
+      "https://www.youtube.com/embed/pgIEPYB1l2s",
+      "https://www.youtube.com/embed/u4oNvTNeOXg",
+      "https://www.youtube.com/embed/zYKPFLFDRv4"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.yfu.de/schueleraustausch/gastlaender/grossbritannien",
+    "domain": "yfu.de",
+    "scrapedUrls": [
+      "https://www.yfu.de/schueleraustausch/gastlaender/grossbritannien",
+      "https://www.yfu.de/ueber-yfu/presse",
+      "https://www.yfu.de/impressum",
+      "https://www.yfu.de/broschuere-bestellen",
+      "https://www.yfu.de/ueber-yfu/presse",
+      "https://www.yfu.de/kontakte",
+      "https://www.yfu.de/schueleraustausch/faq-schueleraustausch",
+      "https://www.yfu.de/ueber-yfu/jobs-praktika"
+    ],
+    "depth": 0,
+    "emails": [
+      "lale.grossbritannien@yfu-deutschland.de",
+      "austausch@yfu.de",
+      "%20austausch@yfu.de",
+      "%20presse@yfu.de",
+      "presse@yfu.de",
+      "info@yfu.de",
+      "feedback@yfu.de",
+      "webmaster@yfu.de",
+      "%20info@yfu.de",
+      "roesch@yfu.de",
+      "bruns@yfu.de"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "040 227002",
+      "21.09.2022",
+      "40 22 70 02",
+      "76 21 672206",
+      "320409420",
+      "040 22 700"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/deutsches-youth-for-understanding-komitee-e-v-",
+      "www.linkedin.com/company/deutsches-youth-for-understanding-komitee-e-v-"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/yfudeutschland",
+      "https://instagram.com/yfudeutschland",
+      "www.instagram.com/yfudeutschland",
+      "https://www.instagram.com/coloredglasses_yfu"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/YFU.Deutschland",
+      "http://www.facebook.com/YFU.Deutschland",
+      "www.facebook.com/YFU.Deutschland"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/YFUdeutschland",
+      "http://www.youtube.com/user/YFUdeutschland",
+      "www.youtube.com/YFUdeutschland"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@yfudeutschland",
+      "www.tiktok.com/@yfudeutschland"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://globalconnection.com.co/programas/estudiar-ingles-en-el-exterior",
+    "domain": "globalconnection.com.co",
+    "scrapedUrls": [
+      "https://globalconnection.com.co/programas/estudiar-ingles-en-el-exterior/",
+      "https://globalconnection.com.co/contactanos/",
+      "https://globalconnection.com.co/contactanos/#oficinas",
+      "https://globalconnection.com.co/contactanos/",
+      "https://globalconnection.com.co/contactanos/",
+      "https://globalconnection.com.co/",
+      "https://globalconnection.com.co/faqs/",
+      "https://globalconnection.com.co/destinos/"
+    ],
+    "depth": 0,
+    "emails": [
+      "clientes@globalconnection.com.co"
+    ],
+    "phones": [
+      "3003206018",
+      "3183094035",
+      "6015304168",
+      "(601) 6362711",
+      "(604) 5299678",
+      "+61491047195"
+    ],
+    "phonesUncertain": [
+      "3003206018",
+      "318 3094035",
+      "601 5304168",
+      "(601) 6362711",
+      "3043811727",
+      "(604) 5299678",
+      "3208097535",
+      "55 8034 7159",
+      "929 3288550",
+      "781 8441304",
+      "857 2370581",
+      "+61 491 047 195",
+      "+44 20 3174 8046"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/global-connection-estudios-en-el-exterior"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/globalconnection"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/globalconnectionestudios"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/c/ViajaconGlobal",
+      "https://www.youtube.com/embed/VDpyyN3cSkM",
+      "https://www.youtube.com/embed/T6JXX94ue_4"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@globalconnectionestudios"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/573183094035",
+      "https://wa.me/+61491047195"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.travelearners.com.co/services/campamentos-verano",
+    "domain": "travelearners.com.co",
+    "scrapedUrls": [
+      "https://www.travelearners.com.co/services/campamentos-verano/",
+      "https://www.travelearners.com.co/contactanos/",
+      "https://www.travelearners.com.co/services/campamentos-verano/",
+      "https://www.travelearners.com.co/",
+      "https://www.travelearners.com.co/services/cursos-frances-aleman-italiano/",
+      "https://www.travelearners.com.co/services/cursos-de-ingles-exterior/",
+      "https://www.travelearners.com.co/services/preparacion-ielts-toefl-cambridge/",
+      "https://www.travelearners.com.co/#"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@travelearners.com"
+    ],
+    "phones": [
+      "6017702853"
+    ],
+    "phonesUncertain": [
+      "6017702853"
+    ],
+    "linkedIns": [],
+    "twitters": [
+      "https://x.com/travelearners"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/travelearners"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/travelearners"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/travelearners",
+      "https://www.youtube.com/travelearners"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/576017702853"
+    ]
+  },
+  {
+    "originalStartUrl": "https://juvigo.de/feriencamps/sprachreisen-england-jugendreisen",
+    "domain": "juvigo.de",
+    "scrapedUrls": [
+      "https://juvigo.de/feriencamps/sprachreisen-england-jugendreisen"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://juvigo.fr/colos/sejours-linguistiques-ado-angleterre",
+    "domain": "juvigo.fr",
+    "scrapedUrls": [
+      "https://juvigo.fr/colos/sejours-linguistiques-ado-angleterre"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.go-jugendreisen.de/england.html",
+    "domain": "go-jugendreisen.de",
+    "scrapedUrls": [
+      "https://www.go-jugendreisen.de/england.html",
+      "https://www.go-jugendreisen.de/pressemitteilungen.html",
+      "https://www.go-jugendreisen.de/impressum.html",
+      "https://www.go-jugendreisen.de/merkzettel.html",
+      "https://www.go-jugendreisen.de/kontakt.html",
+      "https://www.go-jugendreisen.de/haeufig-gestellte-fragen.html",
+      "https://www.go-jugendreisen.de/kataloge-bestellen.html",
+      "https://www.go-jugendreisen.de/italien/orbetello/sport-beach-camp/zelt-lodge/14-17.html"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@go-jugendreisen.de",
+      "jugendreisen@govoyage.de",
+      "beschwerde@versicherungsombudsmann.de",
+      "datenschutz@voyage-gruppenreisen.de",
+      "info@voyage-gruppenreisen.de"
+    ],
+    "phones": [
+      "+495237890821"
+    ],
+    "phonesUncertain": [
+      "09.09.2025",
+      "08 06 32 10006",
+      "0800 3696000",
+      "0800 3699000",
+      "329768144",
+      "89 08 199",
+      "03.09.202612",
+      "03.09.20266",
+      "03.09.202668",
+      "04.08.202612",
+      "04.08.202668",
+      "04.08.202669",
+      "05.07.20266",
+      "05.07.202668",
+      "09.09.202612",
+      "09.09.20266",
+      "09.09.202668",
+      "10.08.202612",
+      "10.08.202668",
+      "10.08.202669",
+      "11.07.202612",
+      "11.07.20266",
+      "16.08.202612",
+      "16.08.202668",
+      "16.08.202669",
+      "17.07.202612",
+      "17.07.202668",
+      "17.07.202669",
+      "22.08.202612",
+      "22.08.202668",
+      "22.08.202669",
+      "23.07.202612",
+      "23.07.202668",
+      "23.07.202669",
+      "28.08.202612",
+      "28.08.202668",
+      "28.08.202669",
+      "29.07.202612",
+      "29.07.202668",
+      "29.07.202669"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/gojugendreisen"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/gojugendreisen",
+      "http://www.facebook.com/gojugendreisen"
+    ],
+    "youtubes": [
+      "https://youtu.be/tmEMP8bcJaw",
+      "https://www.youtube.com/user/GoJugendreisen",
+      "http://www.youtube.com/user/GoJugendreisen",
+      "https://youtu.be/vM6aUgazvio"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@gojugendreisen"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.aifs.de/schueleraustausch/england/uebersicht.html",
+    "domain": "aifs.de",
+    "scrapedUrls": [
+      "https://www.aifs.de/schueleraustausch/england/uebersicht.html",
+      "https://www.aifs.de/impressum.html",
+      "https://www.aifs.de/social-media.html",
+      "https://www.aifs.de/storyteller#aktuellestoryteller",
+      "https://www.aifs.de/farmwork.html",
+      "https://www.aifs.de/farmwork/australien.html",
+      "https://www.aifs.de/kontakt.html",
+      "https://www.aifs.de/farmwork/costa-rica.html"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@aifs.de",
+      "travel@aifs.de",
+      "aupairusa@aifs.de",
+      "aupair@aifs.de",
+      "highschool@aifs.de",
+      "camp@aifs.de",
+      "studyabroad@aifs.de",
+      "ecastillo@aifs.de",
+      "info@aifs.at",
+      "info@aifs.ch"
+    ],
+    "phones": [
+      "+4922895730450"
+    ],
+    "phonesUncertain": [
+      "228 957 30",
+      "122265459",
+      "228 95730",
+      "2351063",
+      "04.03.2026",
+      "25.02.2026",
+      "710 69 88",
+      "44 380 20 12"
+    ],
+    "linkedIns": [
+      "https://de.linkedin.com/company/aifs-educational-travel"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/aifs_jointheworld",
+      "https://www.instagram.com/aifs_auslandsaufenthalte",
+      "https://www.instagram.com/globerocker_official"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/AIFS.JOiNTHEWORLD"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/aifsjointheworld",
+      "https://www.youtube.com/@JackieAlice",
+      "https://www.youtube.com/embed/_04anKtGhbg",
+      "https://www.youtube.com/embed/gyyFulqprgQ"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@aifs_jointheworld",
+      "https://www.tiktok.com/@aifs_auslandsaufenthalte"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.gls-sprachenzentrum.de/90_schuelersprachreise_england.html",
+    "domain": "gls-sprachenzentrum.de",
+    "scrapedUrls": [
+      "https://www.gls-sprachenzentrum.de/90_schuelersprachreise_england.html",
+      "https://www.gls-sprachenzentrum.de/6525_sprachkurse_fuer_hotellerie_gastronomie_tourismus.html",
+      "https://www.gls-sprachenzentrum.de/stellenangebote.html",
+      "https://www.gls-sprachenzentrum.de/sprachreisen_faq_haeufige_fragen.html",
+      "https://www.gls-sprachenzentrum.de/8_gls_sprachreisen.html",
+      "https://www.gls-sprachenzentrum.de/6551_beratung.html",
+      "https://www.gls-sprachenzentrum.de/351_schueleraustausch_highschool.html",
+      "https://www.gls-sprachenzentrum.de/high_school_gls.html"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "+493078008970",
+      "00493078008910"
+    ],
+    "phonesUncertain": [
+      "1998-2026",
+      "+49 30 780089",
+      "8210435",
+      "30 78 00 89",
+      "02.08.2026",
+      "09.08.2026",
+      "10.08.2025",
+      "16.08.2026",
+      "(030) 780089",
+      "030 780089",
+      "(030) 78 00"
+    ],
+    "linkedIns": [
+      "https://de.linkedin.com/company/gls-sprachenzentrum"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/gls_teens_worldwide",
+      "https://www.instagram.com/gls_berlin",
+      "https://www.instagram.com/gls_sprachreisen"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/GLS.Highschool",
+      "facebook.com/GLS-German-Language-School-Berlin-140480419300368",
+      "facebook.com/GLS-Sprachenzentrum-Berlin-1758466047708837"
+    ],
+    "youtubes": [
+      "https://youtu.be/IlONH1o7vbw",
+      "https://www.youtube.com/playlist"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.aufindiewelt.de/detail/schueleraustausch-england-wie-du-gute-schueleraustausch-organisationen-erkennst-und-findest",
+    "domain": "aufindiewelt.de",
+    "scrapedUrls": [
+      "https://www.aufindiewelt.de/detail/schueleraustausch-england-wie-du-gute-schueleraustausch-organisationen-erkennst-und-findest",
+      "https://www.aufindiewelt.de/messen/die-auf-in-die-welt-messen-aussteller-werden",
+      "https://www.aufindiewelt.de/impressum",
+      "https://www.aufindiewelt.de/ueber-uns/about-us",
+      "https://www.aufindiewelt.de/kontakt",
+      "https://www.aufindiewelt.de/blog/work-and-travel",
+      "https://www.aufindiewelt.de/blog/laender",
+      "https://www.aufindiewelt.de/blog/freiwilligendienst"
+    ],
+    "depth": 0,
+    "emails": [
+      "aussteller@aufindiewelt.de"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "1998-2026",
+      "09.05.2026",
+      "30.05.2026",
+      "4102 67 84 89"
+    ],
+    "linkedIns": [],
+    "twitters": [
+      "http://twitter.com/auf_in_die_welt"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/aufindiewelt"
+    ],
+    "facebooks": [
+      "http://facebook.com/aufindiewelt"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.voyage-scolaire.fr/categorie-produit/pays/angleterre",
+    "domain": "voyage-scolaire.fr",
+    "scrapedUrls": [
+      "https://www.voyage-scolaire.fr/categorie-produit/pays/angleterre",
+      "https://www.voyage-scolaire.fr/contact",
+      "https://www.voyage-scolaire.fr/faq",
+      "https://www.voyage-scolaire.fr/#",
+      "https://www.voyage-scolaire.fr/",
+      "https://www.voyage-scolaire.fr/categorie-produit/pays",
+      "https://www.voyage-scolaire.fr/categorie-produit/pays/autriche",
+      "https://www.voyage-scolaire.fr/categorie-produit/pays/allemagne"
+    ],
+    "depth": 0,
+    "emails": [
+      "voyage-scolaire@clc.fr"
+    ],
+    "phones": [
+      "+33565775000",
+      "+33565775077",
+      "+33565775076",
+      "+33565775074",
+      "+33565775073",
+      "+33565775039"
+    ],
+    "phonesUncertain": [
+      "0565775000",
+      "1771235390",
+      "05 65 77 50",
+      "3333312033",
+      "1770982514",
+      "1771235391",
+      "1771235389"
+    ],
+    "linkedIns": [],
+    "twitters": [
+      "https://x.com/Voyage_Scolaire"
+    ],
+    "instagrams": [],
+    "facebooks": [
+      "https://www.facebook.com/voyages.scolaires.clc"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://silc.fr/voyages-scolaires/destinations-voyages-scolaires/angleterre-voyages-scolaires",
+    "domain": "silc.fr",
+    "scrapedUrls": [
+      "https://silc.fr/voyages-scolaires/destinations-voyages-scolaires/angleterre-voyages-scolaires/",
+      "https://silc.fr/nous-contacter/",
+      "https://silc.fr/espace-faq/",
+      "https://silc.fr/demandez-notre-brochure/",
+      "https://silc.fr/sejours-linguistiques/programmes/adolescents/",
+      "https://silc.fr/category/notre-actualite/",
+      "https://silc.fr/sejours-linguistiques/",
+      "https://silc.fr/"
+    ],
+    "depth": 0,
+    "emails": [
+      "contact@silc.fr",
+      "edina.o@silc.fr",
+      "erasmus@silc.fr",
+      "minerve.c@silc.fr",
+      "voyages.scolaires@silc.fr"
+    ],
+    "phones": [
+      "0545974160"
+    ],
+    "phonesUncertain": [
+      "05.45.97.41",
+      "05 45 97 41"
+    ],
+    "linkedIns": [
+      "https://fr.linkedin.com/company/silc-aventures-linguistiques"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/silc.france"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/SejoursLinguistiquesSILC"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/SejoursLinguistiques"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@silc.france"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.sprachcaffe.de/sprachschulen-england.htm",
+    "domain": "sprachcaffe.de",
+    "scrapedUrls": [
+      "https://www.sprachcaffe.de/sprachschulen-england.htm",
+      "https://www.sprachcaffe.de/impressum.htm",
+      "https://www.sprachcaffe.de/uc/kontakt.htm",
+      "https://www.sprachcaffe.de/uc/mehr/faq.htm",
+      "https://www.sprachcaffe.de/uc/kataloge.htm",
+      "https://www.sprachcaffe.de/veranstaltungen.htm",
+      "https://www.sprachcaffe.de/uc/buchung.htm",
+      "https://www.sprachcaffe.de/uc/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "+49696109120",
+      "+4969610912"
+    ],
+    "phonesUncertain": [
+      "1998-2026",
+      "069 6109120",
+      "+49696109120",
+      "+49 69 610912",
+      "114213224",
+      "696109120",
+      "27.04.2026",
+      "28.04.2026",
+      "29.04.2026",
+      "30.04.2026",
+      "01.05.2026",
+      "04.05.2026",
+      "05.05.2026",
+      "06.05.2026"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/sprachcaffe"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/sprachcaffe"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/Sprachcaffe"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/SprachcaffeLanguages",
+      "https://www.youtube.com/watch?v=dSQhEziuFVo",
+      "https://www.youtube.com/watch?v=-atcPM-IbwU",
+      "https://www.youtube.com/watch?v=_yP61pWyI88",
+      "https://www.youtube.com/watch?v=VcGW4XdkdPw",
+      "https://www.youtube.com/watch?v=BblW-N2HtCc",
+      "https://www.youtube.com/watch?v=pqgE-BIPwrk",
+      "https://www.youtube.com/watch?v=QLgBT9sHexk",
+      "https://www.youtube.com/watch?v=HY56d-QBWpI",
+      "https://www.youtube.com/watch?v=D8wLHcNBXi8",
+      "https://www.youtube.com/watch?v=XdB2W5YJChs",
+      "https://www.youtube.com/watch?v=CxjRaOKUkaI"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@sprachcaffelanguagesplus"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/+49696109120"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.britishcouncil.fr/education/ecoles/partenariats/mobilite",
+    "domain": "britishcouncil.fr",
+    "scrapedUrls": [
+      "https://www.britishcouncil.fr/education/ecoles/partenariats/mobilite",
+      "https://www.britishcouncil.fr/apropos/comment-nous-contacter",
+      "https://www.britishcouncil.fr/apropos/presse",
+      "https://www.britishcouncil.fr/etudier/faqs",
+      "https://www.britishcouncil.fr/",
+      "https://www.britishcouncil.fr/anglais",
+      "https://www.britishcouncil.fr/blog",
+      "https://www.britishcouncil.fr/anglais/enfants"
+    ],
+    "depth": 0,
+    "emails": [
+      "contact@britishcouncil.fr",
+      "communications@britishcouncil.fr"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "847 719 473",
+      "01 49 55 73",
+      "01 87 21 88"
+    ],
+    "linkedIns": [],
+    "twitters": [
+      "https://www.twitter.com/fr_British"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/britishcouncilfr"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/BritishCouncilFrance"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/britishcouncilfr",
+      "https://www.youtube.com/watch?v=RaEPa4DZxbU",
+      "https://www.youtube.com/watch?v=I_5dGJjQBBY"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@britishcouncilenglish"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://mediaindonesia.com/jabar/berita/793799/didemo-pelaku-pariwisata-dedi-mulyadi-tetap-larang-study-tour-pelajar",
+    "domain": "mediaindonesia.com",
+    "scrapedUrls": [
+      "https://mediaindonesia.com/jabar/berita/793799/didemo-pelaku-pariwisata-dedi-mulyadi-tetap-larang-study-tour-pelajar",
+      "https://mediaindonesia.com/statics/pedoman-media-siber",
+      "https://mediaindonesia.com/jabar/wisata/854505/grand-pasundan-convention-hotel-ikut-pameran-heritage-wedding-bride-2026",
+      "https://mediaindonesia.com/jabar/wisata/866509/favehotel-hyper-square-bandung-siap-menyambut-tamu-di-momen-lebaran",
+      "https://mediaindonesia.com/jabar/bisnis/852312/fave-hotel-braga-bandung-dan-willnest-first-mega-gym-hadirkan-fun-dance-untuk-gaya-hidup-sehat",
+      "https://mediaindonesia.com/statics/contact",
+      "https://mediaindonesia.com/jabar/bisnis/864884/ihgma-jawa-barat-gelar-workshop-analisis-investasi-untuk-general-manager-hotel-di-bandung",
+      "https://mediaindonesia.com/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "+0215821303",
+      "+0215820476"
+    ],
+    "phonesUncertain": [
+      "1753161319",
+      "021 582 1303",
+      "021 582 0476",
+      "500.000.000",
+      "1769576349",
+      "20.000.000",
+      "1772596654",
+      "1768998987",
+      "021-582130",
+      "0811-123-7979",
+      "1772162948"
+    ],
+    "linkedIns": [],
+    "twitters": [
+      "https://twitter.com/mediaindonesia"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/mediaindonesia"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/share.php",
+      "https://www.facebook.com/mediaindonesia"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/embed/mnTKiyVYYCs",
+      "https://www.youtube.com/channel/UC5WGakcN_jPV8YbRbkN21Xw"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://api.whatsapp.com/send?phone=628111237979"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.envol-espace.fr/voyages-scolaires/Grande-Bretagne",
+    "domain": "envol-espace.fr",
+    "scrapedUrls": [
+      "https://www.envol-espace.fr/voyages-scolaires/Grande-Bretagne",
+      "https://www.envol-espace.fr/presse",
+      "https://www.envol-espace.fr/contact-acces-voyagiste",
+      "https://www.envol-espace.fr/contact-voyagiste",
+      "https://www.envol-espace.fr/voyage-scolaire/enseignement-technique-superieur",
+      "https://www.envol-espace.fr/voyage-scolaire/college-lycee",
+      "https://www.envol-espace.fr/voyage-scolaire/billeterie-avion-train",
+      "https://www.envol-espace.fr/preparer-son-voyage"
+    ],
+    "depth": 0,
+    "emails": [
+      "infos@envol-espace.fr",
+      "al@envol-espace.fr"
+    ],
+    "phones": [
+      "+33258230636"
+    ],
+    "phonesUncertain": [
+      "58 23 06 36",
+      "02 58 23 06",
+      "320-2014",
+      "20253940"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [
+      "https://www.facebook.com/envol.espace"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/@envolespace5952",
+      "https://www.youtube.com/watch?v=wqt8GaCgpZY"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.asl-linguistique.com/voyage-scolaire-angleterre-lyceens.html",
+    "domain": "asl-linguistique.com",
+    "scrapedUrls": [
+      "https://www.asl-linguistique.com/voyage-scolaire-angleterre-lyceens.html",
+      "https://www.asl-linguistique.com/apprendre-anglais-journalisme-presse.html",
+      "https://www.asl-linguistique.com/contactez-asl-linguistique/#mentions",
+      "https://www.asl-linguistique.com/contactez-nous/",
+      "https://www.asl-linguistique.com/page/faq/ados/",
+      "https://www.asl-linguistique.com/travailler-sejour-linguistique-working-holiday-visa.html",
+      "https://www.asl-linguistique.com/page/faq/adultes/",
+      "https://www.asl-linguistique.com/page/faq/"
+    ],
+    "depth": 0,
+    "emails": [
+      "delete@asl-linguistique.com",
+      "webmaster@asl-linguistique.com"
+    ],
+    "phones": [
+      "+33556083323"
+    ],
+    "phonesUncertain": [
+      "05 56 08 33",
+      "05.56.08.33",
+      "501 869 408",
+      "72330737233",
+      "033100009",
+      "05 57 77 44"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/asl_sejours_linguistiques"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/asl.sejours.linguistiques"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.sejours-educatifs.org/vv/voyage-scolaire/sejour-scolaire-angleterre-londres-33582",
+    "domain": "sejours-educatifs.org",
+    "scrapedUrls": [
+      "https://www.sejours-educatifs.org/vv/voyage-scolaire/sejour-scolaire-angleterre-londres-33582",
+      "https://www.sejours-educatifs.org/vv/voyage-scolaire/sejour-scolaire-angleterre-st-austell-33592/",
+      "https://www.sejours-educatifs.org/vv/voyage-scolaire/contact/",
+      "https://www.sejours-educatifs.org/vv/voyage-scolaire/en-france-mer-1/",
+      "https://www.sejours-educatifs.org/vv/voyage-scolaire/blog/",
+      "https://www.sejours-educatifs.org/vv/voyage-scolaire/region-aquitaine-1/",
+      "https://www.sejours-educatifs.org/vv/voyage-scolaire/en-france/",
+      "https://www.sejours-educatifs.org/vv/voyage-scolaire/region-basse-normandie-3/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "000033338774"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [
+      "https://www.facebook.com/laliguedelenseignementnationale"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.verdieopenclass.com/sejours/pays/angleterre.html",
+    "domain": "verdieopenclass.com",
+    "scrapedUrls": [
+      "https://www.verdieopenclass.com/sejours/pays/angleterre.html",
+      "https://www.verdieopenclass.com/sejours/par-hebergement/hotel.html",
+      "https://www.verdieopenclass.com/contact.html",
+      "https://www.verdieopenclass.com/#",
+      "https://www.verdieopenclass.com/sejours/tous-nos-sejours.html",
+      "https://www.verdieopenclass.com/sejours/pays/allemagne.html",
+      "https://www.verdieopenclass.com/sejours/pays/autriche.html",
+      "https://www.verdieopenclass.com/sejours/pays/belgique.html"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "05 65 77 10",
+      "+33800108008"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "http://www.instagram.com/verdieopenclass"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/verdieopenclass"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.mije.com/voyage-scolaire/angleterre",
+    "domain": "mije.com",
+    "scrapedUrls": [
+      "http://www.mije.com/voyage-scolaire/angleterre",
+      "https://www.mije.com/contact",
+      "https://www.mije.com/en/educational-school-trip",
+      "https://www.mije.com/voyage-scolaire",
+      "https://www.mije.com/",
+      "https://connect.mije.com/fr/login",
+      "https://www.mije.com/",
+      "http://www.mije.com/voyage-scolaire"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "+33142742345",
+      "+330142742345"
+    ],
+    "phonesUncertain": [
+      "42 74 23 45"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/mije"
+    ],
+    "twitters": [
+      "https://twitter.com/MijeAssociation"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/mijemarais"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/MIJE.association"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/embed/6yg4dCW3yVE"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.panke-sprachreisen.de/sprachreise-jugendliche",
+    "domain": "panke-sprachreisen.de",
+    "scrapedUrls": [
+      "https://www.panke-sprachreisen.de/sprachreise-jugendliche/",
+      "https://www.panke-sprachreisen.de/impressum/",
+      "https://www.panke-sprachreisen.de/kontakt/",
+      "https://www.panke-sprachreisen.de/customer-portal/",
+      "https://www.panke-sprachreisen.de/workshop-events/",
+      "https://www.panke-sprachreisen.de/informationen/betreuer-teamer/",
+      "https://www.panke-sprachreisen.de/informationen/jobs/",
+      "https://www.panke-sprachreisen.de/"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@panke-sprachreisen.de"
+    ],
+    "phones": [
+      "+494503898310"
+    ],
+    "phonesUncertain": [
+      "4503 89831",
+      "+494503898310",
+      "4503-89831",
+      "04503898310",
+      "157066532",
+      "29.08.2026",
+      "05.09.2026",
+      "12.09.2026",
+      "19.09.2026",
+      "14.11.2026",
+      "05.12.2026"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/panke-sprachreisen-gmbh"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/pankesprachreisen.de"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/PankeSprachreisen"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/PankeSprachreisen"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/+494503898310"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.cei-voyage.fr/experiences/sejours-linguistiques",
+    "domain": "cei-voyage.fr",
+    "scrapedUrls": [
+      "https://www.cei-voyage.fr/experiences/sejours-linguistiques",
+      "https://www.cei-voyage.fr/contact/",
+      "https://www.cei-voyage.fr/faq/",
+      "https://www.cei-voyage.fr/devis-gratuit/",
+      "https://www.cei-voyage.fr/sejours/",
+      "https://www.cei-voyage.fr/en/experiences/summer-international-programs/",
+      "https://www.cei-voyage.fr/experiences/sejours-linguistiques/",
+      "https://www.cei-voyage.fr/panier/"
+    ],
+    "depth": 0,
+    "emails": [
+      "servicegestiondesdonnees@groupe-cei.fr",
+      "info@groupe-cei.fr"
+    ],
+    "phones": [
+      "0143296020",
+      "0299200613"
+    ],
+    "phonesUncertain": [
+      "10(19)11(13",
+      "01 43 29 60",
+      "02 99 20 06",
+      "10(20)11(13",
+      "12(11)13(38",
+      "14(21)15(12",
+      "16(10)18(16",
+      "17(83)18(17",
+      "25(10)99(24"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/cei---centre-d",
+      "https://fr.linkedin.com/company/cei---centre-d%27echanges-internationaux"
+    ],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/ceivoyagesjeunes"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/ceivoyagesjeunes",
+      "https://www.facebook.com/CEIvoyagesjeunes"
+    ],
+    "youtubes": [],
+    "tiktoks": [
+      "https://www.tiktok.com/@ceivoyagejeunes",
+      "https://www.tiktok.com/@ceivoyagesjeunes"
+    ],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://bintangbroadcastmedia.com/2025/05/18/study-tour-pelajar-sekolah-swasta-di-karanganyar-jawa-tengah-viral-di-media-sosial",
+    "domain": "bintangbroadcastmedia.com",
+    "scrapedUrls": [
+      "http://bintangbroadcastmedia.com/2025/05/18/study-tour-pelajar-sekolah-swasta-di-karanganyar-jawa-tengah-viral-di-media-sosial/",
+      "http://bintangbroadcastmedia.com/2025/05/18/study-tour-pelajar-sekolah-swasta-di-karanganyar-jawa-tengah-viral-di-media-sosial/#respond",
+      "https://bintangbroadcastmedia.com/2025/05/18/study-tour-pelajar-sekolah-swasta-di-karanganyar-jawa-tengah-viral-di-media-sosial/#respond",
+      "https://bintangbroadcastmedia.com/author/admbintangbroadcastmedia-com/",
+      "https://bintangbroadcastmedia.com/",
+      "https://bintangbroadcastmedia.com/",
+      "https://bintangbroadcastmedia.com/tim-redaksi/",
+      "https://bintangbroadcastmedia.com/category/uncategorized/"
+    ],
+    "depth": 0,
+    "emails": [
+      "adm@bintangbroadcastmedia.com",
+      "contact@yoursite.com"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "2026 123"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.glolea.com/holidayprogram/season/summer-school",
+    "domain": "glolea.com",
+    "scrapedUrls": [
+      "http://www.glolea.com/holidayprogram/season/summer-school"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.globeducate.com/international-experiences/summer-camps",
+    "domain": "globeducate.com",
+    "scrapedUrls": [
+      "https://www.globeducate.com/international-experiences/summer-camps",
+      "https://www.globeducate.com/about-globeducate/wwf-education-partnership",
+      "https://www.globeducate.com/about-globeducate/sustainability-education",
+      "https://www.globeducate.com/about-globeducate/our-values",
+      "https://www.globeducate.com/about-globeducate/shaping-the-world",
+      "https://www.globeducate.com/about-globeducate",
+      "https://www.globeducate.com/careers-master/contact-us",
+      "https://www.globeducate.com/careers-master/contact-us"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@globeducate.com",
+      "communications@globeducate.com",
+      "marc.gauvin@blytheducation.com",
+      "jbradshaw@torontoprepschool.com",
+      "veronique.martinet@globeducate.fr",
+      "anitha@tipsglobal.org",
+      "dalila.pagano@globeducate.com",
+      "cristina.moran@globeducate.com",
+      "aniol.javaloyes@globeducate.com",
+      "S.Burns@stonarschool.com",
+      "laura.efford@ics.uk.net"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "2019-2022"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/globeducate"
+    ],
+    "twitters": [
+      "https://twitter.com/Globeducate"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/globeducate"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/globeducate"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/embed/vbNpl1J1akc"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://ukcosaglobal.org.uk/study-abroad-consultant.php",
+    "domain": "ukcosaglobal.org.uk",
+    "scrapedUrls": [
+      "http://ukcosaglobal.org.uk/study-abroad-consultant.php",
+      "http://ukcosaglobal.org.uk/services/career-counselling.php",
+      "http://ukcosaglobal.org.uk/about.php",
+      "http://ukcosaglobal.org.uk/services/accommodation-help.php",
+      "https://ukcosaglobal.org.uk/Jobs/",
+      "http://ukcosaglobal.org.uk/partner-login.php",
+      "http://ukcosaglobal.org.uk/blogs/index.php",
+      "http://ukcosaglobal.org.uk/Login/student-login.php"
+    ],
+    "depth": 0,
+    "emails": [
+      "support@ukcosaglobal.org.uk",
+      "patna@ukcosaglobal.org.uk",
+      "accommodation@ukcosaglobal.org.uk",
+      "partners@ukcosaglobal.org.uk"
+    ],
+    "phones": [
+      "+916201400457",
+      "+442033930576"
+    ],
+    "phonesUncertain": [
+      "+91-620140",
+      "+916201400457",
+      "+44-203393",
+      "15450569",
+      "2020-2021",
+      "2022-2023",
+      "2024-2025",
+      "+44 20 3393 0576",
+      "+91 6201 400 457"
+    ],
+    "linkedIns": [
+      "https://linkedin.com/company/ukcosaglobal",
+      "https://www.linkedin.com/in/prachi-profile",
+      "https://www.linkedin.com/in/vidhi-shiva-17441a246",
+      "https://www.linkedin.com/in/mahesh-wankhede-7629392b6",
+      "https://www.linkedin.com/in/mr-ravi-saxena",
+      "https://www.linkedin.com/in/foundernitishkumar"
+    ],
+    "twitters": [
+      "https://twitter.com/ukcosaglobal"
+    ],
+    "instagrams": [
+      "https://instagram.com/ukcosaglobal"
+    ],
+    "facebooks": [
+      "https://facebook.com/ukcosaglobal"
+    ],
+    "youtubes": [
+      "https://youtube.com/@studywithukcosaglobal"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/442033930576"
+    ]
+  },
+  {
+    "originalStartUrl": "https://mobile.wattpad.com/stories/educationaltouroperator",
+    "domain": "wattpad.com",
+    "scrapedUrls": [
+      "https://mobile.wattpad.com/stories/educationaltouroperator",
+      "https://www.wattpad.com/login",
+      "https://company.wattpad.com/jobs",
+      "https://www.wattpad.com/search",
+      "https://www.wattpad.com/",
+      "https://www.wattpad.com/story/218196553-educational-tour-operator-educational-trip",
+      "https://company.wattpad.com/press",
+      "https://www.wattpad.com/user/armaantour"
+    ],
+    "depth": 0,
+    "emails": [
+      "press@wattpad.com"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "1675191393521",
+      "1776366786788",
+      "961-4649-8369",
+      "462591850367401",
+      "336042005250656",
+      "14261210",
+      "30.909091",
+      "94946289",
+      "1595878448471",
+      "1596137875368",
+      "1595878464551",
+      "8646837"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/wattpad"
+    ],
+    "twitters": [
+      "https://twitter.com/wattpad",
+      "https://twitter.com/wattpadbusiness"
+    ],
+    "instagrams": [
+      "https://instagram.com/wattpad",
+      "https://www.instagram.com/wattpad",
+      "https://www.instagram.com/lifeatwattpad"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/wattpad"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/user/wattpad",
+      "https://www.youtube.com/wattpad"
+    ],
+    "tiktoks": [
+      "https://www.tiktok.com/@wattpad"
+    ],
+    "pinterests": [
+      "https://ca.pinterest.com/wattpad"
+    ],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.elevateroutes.com/uk",
+    "domain": "elevateroutes.com",
+    "scrapedUrls": [
+      "http://www.elevateroutes.com/uk",
+      "http://www.elevateroutes.com/contact-us.php",
+      "http://www.elevateroutes.com/about-us.php",
+      "http://www.elevateroutes.com/vision.php",
+      "http://www.elevateroutes.com/blog.php",
+      "http://www.elevateroutes.com/mission.php",
+      "http://www.elevateroutes.com/why-us.php",
+      "https://www.elevateroutes.com/"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@elevateroutes.com"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "149487254080627",
+      "160302513372449",
+      "+91 91719",
+      "505308015996575",
+      "933089128285660",
+      "+91 91719400"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/elevateroutes"
+    ],
+    "twitters": [
+      "https://x.com/ElevateRoutes"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/elevate_routes"
+    ],
+    "facebooks": [
+      "facebook.com/latest",
+      "https://www.facebook.com/profile.php?id=61569642913652"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/@ElevateRoutes"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://dreamtravelstudy.com",
+    "domain": "dreamtravelstudy.com",
+    "scrapedUrls": [
+      "https://dreamtravelstudy.com/",
+      "https://dreamtravelstudy.com/home-2/contact/",
+      "https://dreamtravelstudy.com/visa-support/",
+      "https://dreamtravelstudy.com/",
+      "https://dreamtravelstudy.com/concierge-service/",
+      "https://dreamtravelstudy.com/ru/%d0%b3%d0%bb%d0%b0%d0%b2%d0%bd%d0%b0%d1%8f-2/",
+      "https://dreamtravelstudy.com/#pll_switcher",
+      "https://dreamtravelstudy.com/#"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@dreamtravelstudy.com"
+    ],
+    "phones": [
+      "447733937015",
+      "+447733937015"
+    ],
+    "phonesUncertain": [
+      "1092965",
+      "+447733937015",
+      "447733937015"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/447733937015"
+    ]
+  },
+  {
+    "originalStartUrl": "https://leverageedu.com/uk-education-consultants",
+    "domain": "leverageedu.com",
+    "scrapedUrls": [
+      "https://leverageedu.com/uk-education-consultants/",
+      "https://leverage.biz/",
+      "https://leverageedu.com/work-global/",
+      "https://leverageedu.com/blog/category/sop/",
+      "https://leverageedu.com/work-global/",
+      "https://leverageedu.com/blog/letter-of-recommendation-lor/",
+      "https://leverageedu.com/study-locations/study-in-uk/",
+      "https://leverageedu.com/work-with-us/"
+    ],
+    "depth": 0,
+    "emails": [
+      "priyanka123@gmail.com21",
+      "hello@leverageedu.com"
+    ],
+    "phones": [
+      "+918069012201",
+      "+918147534007",
+      "+919821543973",
+      "1800572000",
+      "08069012014"
+    ],
+    "phonesUncertain": [
+      "+91-806901",
+      "+91-814753",
+      "+91-982154",
+      "1800-572-000",
+      "02165625",
+      "12010013",
+      "3399788",
+      "68651752257",
+      "1000-1500",
+      "23173553",
+      "6325173"
+    ],
+    "linkedIns": [
+      "https://in.linkedin.com/company/leverage-edu",
+      "https://www.linkedin.com/company/leverage-edu",
+      "https://in.linkedin.com/in/sonal-rajput-b084a3166"
+    ],
+    "twitters": [
+      "https://twitter.com/leverageedu",
+      "twitter.com/uwt",
+      "https://x.com/leverageedu",
+      "https://twitter.com/rajputsonal30"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/leverageedu",
+      "https://www.instagram.com/rajputsonal"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/LeverageEdu",
+      "https://facebook.com/LeverageEdu",
+      "https://www.facebook.com/rajput.sonal30"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/c/LeverageEdu",
+      "https://www.youtube.com/channel/UCGn54Lhkb_CjGMwA8HEzgTg",
+      "https://m.youtube.com/channel/UCGn54Lhkb_CjGMwA8HEzgTg"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://api.whatsapp.com/send?phone=919953311868"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.ef.com/wwen/pg/summer-camp",
+    "domain": "ef.com",
+    "scrapedUrls": [
+      "https://www.ef.com/wwen/pg/summer-camp/",
+      "https://www.ef.com/wwen/about-us/",
+      "https://www.ef.com/wwen/legal/contact-us/",
+      "https://www.ef.com/wwen/contact/",
+      "https://www.ef.com/wwen/blog/",
+      "https://www.ef.com/wwen/",
+      "https://www.ef.com/wwes/pg/",
+      "https://www.ef.com/wwfr/pg/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "0041434304150",
+      "+0041434304150",
+      "005072146000",
+      "00971523294807",
+      "02073418777",
+      "+005072146000",
+      "+00971523294807"
+    ],
+    "phonesUncertain": [
+      "+41 43 430 41",
+      "+507 214 6000",
+      "+971523294807",
+      "207 341 8777"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [
+      "https://www.youtube.com/watch?v=03OCkj2gS70",
+      "https://www.youtube.com/watch?v=08TwHvMrkDg",
+      "https://www.youtube.com/watch?v=0Llpni-xN0c",
+      "https://www.youtube.com/watch?v=106Y4um63lo",
+      "https://www.youtube.com/watch?v=22oxZbRB0o0",
+      "https://www.youtube.com/watch?v=3XTNUDuc6G4",
+      "https://www.youtube.com/watch?v=59mytqeJ0H0",
+      "https://www.youtube.com/watch?v=6beqnQhSWmQ",
+      "https://www.youtube.com/watch?v=800DbTdyslg",
+      "https://www.youtube.com/watch?v=84ovwaR3v-s",
+      "https://www.youtube.com/watch?v=86eO2fyyPhM",
+      "https://www.youtube.com/watch?v=AXs0k4vqvuU",
+      "https://www.youtube.com/watch?v=DbsyP39hDns",
+      "https://www.youtube.com/watch?v=DmX44h3RQes",
+      "https://www.youtube.com/watch?v=EDsL2X2siRU",
+      "https://www.youtube.com/watch?v=HGx6Xve0EL0",
+      "https://www.youtube.com/watch?v=I-OBq-SfXVs",
+      "https://www.youtube.com/watch?v=Iv-Rc5wB9W0",
+      "https://www.youtube.com/watch?v=JFfuEavjURY",
+      "https://www.youtube.com/watch?v=JXTBfdPxFaY",
+      "https://www.youtube.com/watch?v=KESVCA8Fud4",
+      "https://www.youtube.com/watch?v=KqM66JutZyA",
+      "https://www.youtube.com/watch?v=KriAhh00tJ4",
+      "https://www.youtube.com/watch?v=L9HG4u1883o",
+      "https://www.youtube.com/watch?v=M_F0UNsI0ks",
+      "https://www.youtube.com/watch?v=Nl1GlNV-zCs",
+      "https://www.youtube.com/watch?v=O0NTZxJZG48",
+      "https://www.youtube.com/watch?v=OCWvT4_RDQ0",
+      "https://www.youtube.com/watch?v=OOuY4Alhvxw",
+      "https://www.youtube.com/watch?v=OY4nveldhs8",
+      "https://www.youtube.com/watch?v=S5IYusSXUE0",
+      "https://www.youtube.com/watch?v=UC_Kygz4yEw",
+      "https://www.youtube.com/watch?v=V7_Z48d4XQI",
+      "https://www.youtube.com/watch?v=WvH9A0aNNPk",
+      "https://www.youtube.com/watch?v=XaSWqZofOn4",
+      "https://www.youtube.com/watch?v=c3BWXSBajqo",
+      "https://www.youtube.com/watch?v=da3e5KHdeQE",
+      "https://www.youtube.com/watch?v=e2Jhf61Tt5g",
+      "https://www.youtube.com/watch?v=ePdgtPCqusE",
+      "https://www.youtube.com/watch?v=eXaEgHSARJI",
+      "https://www.youtube.com/watch?v=j-2QW1X_g44",
+      "https://www.youtube.com/watch?v=ld-Vcne9UPE",
+      "https://www.youtube.com/watch?v=nq7SNuQkmwE",
+      "https://www.youtube.com/watch?v=p-occJch6_M",
+      "https://www.youtube.com/watch?v=q1Ap2F4nie0",
+      "https://www.youtube.com/watch?v=sUVfWCt-rLY",
+      "https://www.youtube.com/watch?v=y01QVGgIf9I",
+      "https://www.youtube.com/watch?v=ywwAfVVnhGQ",
+      "https://www.youtube.com/watch?v=YvRvBALncw8\",\"linktype\":\"url\",\"fieldtype\":\"multilink\",\"cached_url\":\"https://www.youtube.com/watch?v=YvRvBALncw8",
+      "https://www.youtube.com/watch?v=A-ZWJMao-Fk"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://pancabudi.sch.id/detil/STUDY_TOUR_PELAJAR_SMA_PANCA_BUDI_KE_BANGKOK_DAN_PATTAYA_THAILAND_810zC",
+    "domain": "pancabudi.sch.id",
+    "scrapedUrls": [
+      "https://pancabudi.sch.id/detil/STUDY_TOUR_PELAJAR_SMA_PANCA_BUDI_KE_BANGKOK_DAN_PATTAYA_THAILAND_810zC",
+      "https://pancabudi.sch.id/#",
+      "https://pancabudi.sch.id/",
+      "https://pancabudi.sch.id/page/berita",
+      "https://pancabudi.sch.id/detil/Company_Profile_YyA0j",
+      "https://pancabudi.sch.id/page/majalah",
+      "https://pancabudi.sch.id/page/download",
+      "https://pancabudi.sch.id/unit/tk"
+    ],
+    "depth": 0,
+    "emails": [
+      "medsos_gupab@pancabudi.sch.id"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "08116300044",
+      "22-02-2017",
+      "13-09-2022"
+    ],
+    "linkedIns": [],
+    "twitters": [
+      "https://www.twitter.com/perguruanpadi"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/perguruan_pancabudi"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/https",
+      "www.facebook.com/profile.php?id=100063235507791"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/channel/UC6iGXm42ZSzPDMeakTiZatw",
+      "https://www.youtube.com/embed/TTEmBUYt8YM"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/08116300044"
+    ]
+  },
+  {
+    "originalStartUrl": "https://kensacademic.com",
+    "domain": "kensacademic.com",
+    "scrapedUrls": [
+      "http://kensacademic.com/",
+      "https://kensacademic.com/services/familysupport/",
+      "http://kensacademic.com/services/",
+      "https://kensacademic.com/services/boarding-school/",
+      "https://kensacademic.com/services/highschool/",
+      "https://kensacademic.com/services/summerschool/",
+      "http://kensacademic.com/school/",
+      "https://kensacademic.com/services/elementaryschool/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "2026.04.25",
+      "2026.04.17",
+      "2026.04.10",
+      "2026.03.27"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/kensacademic"
+    ],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://heeraholiday.in",
+    "domain": "heeraholiday.in",
+    "scrapedUrls": [
+      "https://heeraholiday.in/",
+      "https://heeraholiday.in/contact/",
+      "https://heeraholiday.in/about-us/",
+      "https://heeraholiday.in/isro-tour/",
+      "https://heeraholiday.in/home/",
+      "https://heeraholiday.in/isro-thumba-tour/",
+      "https://heeraholiday.in/",
+      "https://heeraholiday.in/blog/"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@heeraholiday.in",
+      "heeraholiday@gmail.com",
+      "bhanudasgavhane87@gmail.com"
+    ],
+    "phones": [],
+    "phonesUncertain": [
+      "7558316915",
+      "8793666563",
+      "9921223044"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/heeraholiday21"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/profile.php?id=100085035735813"
+    ],
+    "youtubes": [
+      "https://youtube.com/@bhanudas15"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/918793666563"
+    ]
+  },
+  {
+    "originalStartUrl": "https://note.com/mrsrosy/n/nf3c2bc3b9f63",
+    "domain": "note.com",
+    "scrapedUrls": [
+      "https://note.com/mrsrosy/n/nf3c2bc3b9f63",
+      "https://note.com/mrsrosy/membership/join",
+      "https://note.com/login?redirectPath=",
+      "https://note.com/signup",
+      "https://note.com/kawabata/n/n5fcf27ddecd8",
+      "https://note.com/mrsrosy",
+      "https://note.com/mrsrosy/n/n5128d01c7172",
+      "https://note.com/mrsrosy/m/ma15cc3e2a3a1"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [],
+    "linkedIns": [],
+    "twitters": [
+      "https://twitter.com/MrsRosy3",
+      "x.com/MrsRosy3"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/yuriko_malaysia_canada",
+      "https://www.instagram.com/coffeeandiphone"
+    ],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.edmaster.co/study-abroad/study-in-uk-consultant-vadodara",
+    "domain": "edmaster.co",
+    "scrapedUrls": [
+      "https://www.edmaster.co/study-abroad/study-in-uk-consultant-vadodara/",
+      "https://www.edmaster.co/contact-us/",
+      "https://www.edmaster.co/about-us/",
+      "https://www.edmaster.co/resources/blogs/",
+      "https://www.edmaster.co/resources/careers/",
+      "https://www.edmaster.co/coaching/",
+      "https://www.edmaster.co/",
+      "https://www.edmaster.co/coaching/ielts-coaching-in-vadodara/"
+    ],
+    "depth": 0,
+    "emails": [
+      "hello@edmaster.co",
+      "applications@edmaster.co"
+    ],
+    "phones": [
+      "+917226933337",
+      "+917226933336"
+    ],
+    "phonesUncertain": [
+      "+91 72269",
+      "+91 72269333",
+      "2024-2025"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/edmaster-ltd"
+    ],
+    "twitters": [
+      "https://x.com/edmaster_india"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/edmasterindia"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/edmasterindia"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/@edmasterindia",
+      "https://www.youtube.com/embed/Y-x0efG1seA"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/7226933336"
+    ]
+  },
+  {
+    "originalStartUrl": "https://www.eg-uk.com",
+    "domain": "eg-uk.com",
+    "scrapedUrls": [
+      "https://www.eg-uk.com/",
+      "https://www.eg-uk.com/blog/about-junior-summer-school-in-uk/",
+      "https://www.eg-uk.com/about/",
+      "https://www.eg-uk.com/contact/",
+      "https://www.eg-uk.com/contact/",
+      "https://www.eg-uk.com/blog/smart-and-safe-how-to-bring-money-to-the-uk/",
+      "https://www.eg-uk.com/blog/recommended-souvenirs/",
+      "https://www.eg-uk.com/faq/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "2018.12.14",
+      "2024.06.17",
+      "2025.12.24",
+      "2025.12.10",
+      "+44-1273-771545",
+      "2234 4190"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [
+      "https://www.instagram.com/eg.uk.ltd"
+    ],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.iss-ryugakulife.com/junior/academy/uk",
+    "domain": "iss-ryugakulife.com",
+    "scrapedUrls": [
+      "http://www.iss-ryugakulife.com/junior/academy/uk",
+      "https://www.iss-ryugakulife.com/university/working-holiday",
+      "https://www.iss-ryugakulife.com/social/working-holiday",
+      "http://www.iss-ryugakulife.com/junior/academy/support",
+      "https://www.iss-ryugakulife.com/",
+      "https://www.iss-ryugakulife.com/kids",
+      "https://www.iss-ryugakulife.com/lp/2026-05_fair",
+      "https://www.iss-ryugakulife.com/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [
+      "0120981588"
+    ],
+    "phonesUncertain": [
+      "0120-981-588"
+    ],
+    "linkedIns": [],
+    "twitters": [
+      "https://twitter.com/ISS_ryugaku"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/ryugakulife"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/issryugaku"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/embed/BCRjhibsmFg",
+      "https://www.youtube.com/embed/bCQ12Vgljws"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://globaldegrees.in/uk-education-consultants-in-chennai",
+    "domain": "globaldegrees.in",
+    "scrapedUrls": [
+      "https://globaldegrees.in/uk-education-consultants-in-chennai/",
+      "https://globaldegrees.in/about-us/",
+      "https://globaldegrees.in/contact-us/",
+      "https://globaldegrees.in/study-abroad-consultants-in-telangana/",
+      "https://globaldegrees.in/blog/",
+      "https://globaldegrees.in/awards-recognition/",
+      "https://globaldegrees.in/",
+      "https://globaldegrees.in/certification/"
+    ],
+    "depth": 0,
+    "emails": [
+      "info@globaldegrees.in",
+      "info@gmail.com"
+    ],
+    "phones": [
+      "7036373839",
+      "9581622255",
+      "9500008218",
+      "9951354999",
+      "8686949677",
+      "7330772929",
+      "9705903377"
+    ],
+    "phonesUncertain": [
+      "+91 70363738",
+      "+91-950590",
+      "+91-703637",
+      "+91-950000",
+      "7036373839",
+      "2024-2029",
+      "16-11-740",
+      "+91-995135",
+      "+91-868694",
+      "+91-733077",
+      "+91-970590"
+    ],
+    "linkedIns": [
+      "https://www.linkedin.com/company/91453015"
+    ],
+    "twitters": [
+      "https://twitter.com/GDegrees9",
+      "https://x.com/GDegrees9"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/global_degrees_official",
+      "https://www.instagram.com/global_degrees_guntur"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/globaldegreesofficial"
+    ],
+    "youtubes": [
+      "https://www.youtube.com/@GLobaldegrees",
+      "https://www.youtube.com/embed/8g2A9EaUGeM",
+      "https://www.youtube.com/embed/cjPb1wYQwb0",
+      "https://www.youtube.com/embed/Qv6IL8lXEOY",
+      "https://www.youtube.com/embed/pXGhsa3GxTw",
+      "https://www.youtube.com/embed/CLqPXsacvoU",
+      "https://www.youtube.com/embed/4PBT-PK04Zg"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/7036373839",
+      "https://wa.me/9500008218",
+      "https://wa.me/9951354999",
+      "https://wa.me/8686949677",
+      "https://wa.me/7330772929",
+      "https://wa.me/9705903377"
+    ]
+  },
+  {
+    "originalStartUrl": "https://ryugaku.kuraveil.jp/countries/united-kingdom/purposes/junior-high-school-study-abroad",
+    "domain": "kuraveil.jp",
+    "scrapedUrls": [
+      "https://ryugaku.kuraveil.jp/countries/united-kingdom/purposes/junior-high-school-study-abroad",
+      "https://ryugaku.kuraveil.jp/countries/united-kingdom/about",
+      "https://ryugaku.kuraveil.jp/about",
+      "https://ryugaku.kuraveil.jp/countries/united-kingdom/purposes/working-people-studying-abroad",
+      "https://ryugaku.kuraveil.jp/purposes",
+      "https://ryugaku.kuraveil.jp/working-holiday",
+      "https://ryugaku.kuraveil.jp/faqs",
+      "https://ryugaku.kuraveil.jp/working-holiday/countries/united-kingdom"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "03-5211-1100",
+      "7465-6500",
+      "225-4777",
+      "2018.09.13",
+      "2023.10.18",
+      "2023.10.19",
+      "2024.10.15",
+      "2025.07.08",
+      "2025.12.16",
+      "2026.04.01",
+      "2026.04.02",
+      "2019.11.13",
+      "2019.12.182020",
+      "2023.08.28",
+      "2023.10.16",
+      "2024.10.10",
+      "2026.01.05",
+      "2023.09.14",
+      "2018.08.232018",
+      "2018.08.242017",
+      "2018.08.28",
+      "2018.09.11",
+      "2023.08.29"
+    ],
+    "linkedIns": [],
+    "twitters": [
+      "https://twitter.com/ryugaku_debut"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/ryugaku_debut_kuraveil"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/ryugaku.debut"
+    ],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://www.alc.co.jp/studyabroad/england",
+    "domain": "alc.co.jp",
+    "scrapedUrls": [
+      "https://www.alc.co.jp/studyabroad/england",
+      "https://www.alc.co.jp/studyabroad/contact/",
+      "https://www.alc.co.jp/company/",
+      "https://www.alc.co.jp/services/",
+      "https://recruit.alc.co.jp/newgrad/",
+      "https://www.alc.co.jp/",
+      "https://www.alc.co.jp/studyabroad/category/country/",
+      "https://www.alc.co.jp/studyabroad/"
+    ],
+    "depth": 0,
+    "emails": [],
+    "phones": [],
+    "phonesUncertain": [
+      "0100-0114-3378",
+      "141-0001"
+    ],
+    "linkedIns": [],
+    "twitters": [],
+    "instagrams": [],
+    "facebooks": [],
+    "youtubes": [],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": []
+  },
+  {
+    "originalStartUrl": "https://edugoabroad.com/top-uk-study-abroad-consultants-what-sets-edugo-abroad-apart",
+    "domain": "edugoabroad.com",
+    "scrapedUrls": [
+      "https://edugoabroad.com/top-uk-study-abroad-consultants-what-sets-edugo-abroad-apart/",
+      "https://edugoabroad.com/learn-about-duolingo-english-test-how-is-it-used-for-uk-irish-universitys-admission/",
+      "https://edugoabroad.com/edugo-press/",
+      "https://edugoabroad.com/contact/",
+      "https://edugoabroad.com/edugo-press/",
+      "https://edugoabroad.com/career/",
+      "https://edugoabroad.com/our-team/",
+      "https://edugoabroad.com/our-team/"
+    ],
+    "depth": 0,
+    "emails": [
+      "inquiry@edugoabroad.com",
+      "admin@edugoabroad.com"
+    ],
+    "phones": [
+      "+918511880310"
+    ],
+    "phonesUncertain": [
+      "38126222",
+      "7758048",
+      "+917069007131",
+      "+91 70690",
+      "4000-15500",
+      "900-7131",
+      "+91 85118"
+    ],
+    "linkedIns": [
+      "https://in.linkedin.com/company/edugo-abroad",
+      "https://www.linkedin.com/in/tejas-k-panchal-691025146",
+      "https://www.linkedin.com/in/bhargav-modi-94748548",
+      "https://www.linkedin.com/in/chintan-modi-3069113b"
+    ],
+    "twitters": [
+      "https://x.com/Edugo_Abroad"
+    ],
+    "instagrams": [
+      "https://www.instagram.com/edugo.abroadofficial"
+    ],
+    "facebooks": [
+      "https://www.facebook.com/edugoabroad",
+      "https://facebook.com/edugoabroad"
+    ],
+    "youtubes": [
+      "https://youtube.com/watch?v=2IcfvkI1sJ4",
+      "https://youtube.com/watch?v=8PU-O76NNmk",
+      "https://youtube.com/watch?v=WMI7WxgRSBU",
+      "https://youtube.com/@edugo",
+      "https://www.youtube.com/embed/_O6twXuFh9Y"
+    ],
+    "tiktoks": [],
+    "pinterests": [],
+    "discords": [],
+    "snapchats": [],
+    "threads": [],
+    "telegrams": [],
+    "reddits": [],
+    "whatsapps": [
+      "https://wa.me/+917069007131"
+    ]
+  }
+]

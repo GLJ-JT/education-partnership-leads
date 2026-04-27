@@ -3,7 +3,9 @@ import json
 from pathlib import Path
 
 
-DATA = Path("lead-output/combined-uk-turkey-spain-italy-leads-map-data.json")
+WORLDWIDE_DATA = Path("lead-output/combined-worldwide-education-partnership-leads-map-data.json")
+BASE_DATA = Path("lead-output/combined-uk-turkey-spain-italy-leads-map-data.json")
+DATA = WORLDWIDE_DATA if WORLDWIDE_DATA.exists() else BASE_DATA
 OUTPUTS = [
     Path("lead-output/combined-uk-turkey-spain-italy-leads-map.html"),
     Path("lead-output/combined-uk-turkey-spain-italy-leads-dashboard-map.html"),
@@ -12,6 +14,36 @@ OUTPUTS = [
 
 def main():
     leads = json.loads(DATA.read_text(encoding="utf-8"))
+    country_names = {
+        "AE": "United Arab Emirates",
+        "AU": "Australia",
+        "BR": "Brazil",
+        "CN": "China",
+        "CO": "Colombia",
+        "DE": "Germany",
+        "ES": "Spain",
+        "FR": "France",
+        "GB": "United Kingdom",
+        "ID": "Indonesia",
+        "IN": "India",
+        "IT": "Italy",
+        "JP": "Japan",
+        "KR": "South Korea",
+        "MY": "Malaysia",
+        "NL": "Netherlands",
+        "PK": "Pakistan",
+        "PL": "Poland",
+        "SA": "Saudi Arabia",
+        "SG": "Singapore",
+        "TH": "Thailand",
+        "TR": "Turkey",
+        "VN": "Vietnam",
+    }
+    countries = sorted({lead.get("country") for lead in leads if lead.get("country")})
+    country_options = "\n".join(
+        f'          <option value="{code}">{country_names.get(code, code)}</option>'
+        for code in countries
+    )
     html = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -293,7 +325,7 @@ def main():
     <header class="top">
       <div>
         <h1>Education Partnership Leads Command Center</h1>
-        <div class="sub">Combined UK, Turkey, Spain, and Italy lead dashboard with map navigation</div>
+        <div class="sub">Worldwide education partnership lead dashboard with map navigation</div>
       </div>
       <div class="view-toggle" aria-label="View switcher">
         <button id="dashboardTab" class="active" type="button">Dashboard</button>
@@ -309,10 +341,7 @@ def main():
         </select>
         <select id="country">
           <option value="all">All countries</option>
-          <option value="GB">United Kingdom</option>
-          <option value="TR">Turkey</option>
-          <option value="ES">Spain</option>
-          <option value="IT">Italy</option>
+{country_options}
         </select>
         <select id="statusFilter">
           <option value="all">All statuses</option>
@@ -380,7 +409,7 @@ def main():
     const LEADS = {json.dumps(leads, ensure_ascii=False)};
     const CHECKS = ['Review fit and notes', 'Open website', 'Check decision maker source', 'Open LinkedIn', 'Send cold email', 'Call main/company phone', 'Schedule follow-up'];
     const colors = {{ Keep: '#3ee29c', Review: '#f7c955', Remove: '#ff6b8a' }};
-    const state = {{ selected: 0, view: 'dashboard', query: '', fit: 'all', country: 'all', status: 'all', quality: 'all', zoom: 4.7, centerLat: 43.8, centerLon: 8.5 }};
+    const state = {{ selected: 0, view: 'dashboard', query: '', fit: 'all', country: 'all', status: 'all', quality: 'all', zoom: 2.45, centerLat: 28, centerLon: 18 }};
     const map = L.map('map', {{
       zoomControl: false,
       attributionControl: false,
