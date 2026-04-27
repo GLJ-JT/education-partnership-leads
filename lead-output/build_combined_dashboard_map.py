@@ -18,6 +18,7 @@ def main():
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Education Partnership Leads Command Center</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
     :root {{
       --bg: #071018;
@@ -181,7 +182,28 @@ def main():
     .check input {{ width: 16px; height: 16px; margin-top: 1px; accent-color: var(--cyan); }}
     .map-view {{ grid-template-columns: minmax(0, 1fr) 380px; min-height: 0; }}
     .map-stage {{ position: relative; min-width: 0; min-height: 0; overflow: hidden; background: #071326; }}
-    canvas {{ width: 100%; height: 100%; display: block; touch-action: none; }}
+    #map {{ width: 100%; height: 100%; min-height: 0; background: #071326; cursor: grab; }}
+    #map:active {{ cursor: grabbing; }}
+    .leaflet-container {{ background: #071326; font-family: inherit; }}
+    .leaflet-control-attribution {{ display: none; }}
+    .leaflet-tile {{ filter: saturate(1.05) contrast(1.04); }}
+    .lead-marker {{
+      width: 15px;
+      height: 15px;
+      border-radius: 999px;
+      border: 2px solid rgba(238, 250, 255, .9);
+      box-shadow: 0 0 0 8px rgba(51, 214, 208, .14), 0 0 22px rgba(51, 214, 208, .22);
+      transform: translate(-50%, -50%);
+    }}
+    .lead-marker.Keep {{ background: var(--green); box-shadow: 0 0 0 8px rgba(62, 226, 156, .14), 0 0 22px rgba(62, 226, 156, .28); }}
+    .lead-marker.Review {{ background: var(--yellow); box-shadow: 0 0 0 8px rgba(247, 201, 85, .14), 0 0 22px rgba(247, 201, 85, .28); }}
+    .lead-marker.Remove {{ background: var(--red); box-shadow: 0 0 0 8px rgba(255, 107, 138, .13), 0 0 22px rgba(255, 107, 138, .24); }}
+    .lead-marker.active {{
+      width: 21px;
+      height: 21px;
+      border-width: 3px;
+      box-shadow: 0 0 0 14px rgba(51, 214, 208, .18), 0 0 34px rgba(255, 255, 255, .34);
+    }}
     .map-card {{
       position: absolute;
       left: 16px;
@@ -306,10 +328,10 @@ def main():
 
     <section id="mapView" class="view map-view">
       <div class="map-stage">
-        <canvas id="map"></canvas>
+        <div id="map"></div>
         <div class="map-card">
           <h2 style="font-size:18px;margin:0 0 4px;">Lead Map</h2>
-          <div class="sub">Drag pan, use +/- buttons for zoom, click a point to inspect a lead</div>
+          <div class="sub">Leaflet map · smooth trackpad zoom · drag pan · click a point to inspect a lead</div>
           <div class="metrics">
             <div class="metric"><b id="mapShown">0</b><span>mapped</span></div>
             <div class="metric"><b id="mapKeep">0</b><span>keep</span></div>
@@ -329,14 +351,31 @@ def main():
       </aside>
     </section>
   </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script>
     const LEADS = {json.dumps(leads, ensure_ascii=False)};
     const CHECKS = ['Review fit and notes', 'Open website', 'Check decision maker source', 'Open LinkedIn', 'Send cold email', 'Call main/company phone', 'Schedule follow-up'];
     const colors = {{ Keep: '#3ee29c', Review: '#f7c955', Remove: '#ff6b8a' }};
-    const tileCache = new Map();
-    const state = {{ selected: 0, view: 'dashboard', query: '', fit: 'all', country: 'all', status: 'all', quality: 'all', zoom: 4.7, centerLat: 43.8, centerLon: 8.5, drag: false, moved: false, lastX: 0, lastY: 0 }};
-    const canvas = document.getElementById('map');
-    const ctx = canvas.getContext('2d');
+    const state = {{ selected: 0, view: 'dashboard', query: '', fit: 'all', country: 'all', status: 'all', quality: 'all', zoom: 4.7, centerLat: 43.8, centerLon: 8.5 }};
+    const map = L.map('map', {{
+      zoomControl: false,
+      attributionControl: false,
+      scrollWheelZoom: true,
+      wheelDebounceTime: 12,
+      wheelPxPerZoomLevel: 170,
+      zoomSnap: 0.25,
+      zoomDelta: 0.5,
+      inertia: true,
+      inertiaDeceleration: 2600,
+      easeLinearity: 0.2,
+      preferCanvas: true
+    }}).setView([state.centerLat, state.centerLon], state.zoom);
+    L.tileLayer('https://basemaps.cartocdn.com/dark_all/{{z}}/{{x}}/{{y}}.png', {{
+      maxZoom: 18,
+      minZoom: 3,
+      crossOrigin: true
+    }}).addTo(map);
+    const markerLayer = L.layerGroup().addTo(map);
     const $ = id => document.getElementById(id);
     const safe = v => (v || '').toString().trim();
     const clamp = (v, min, max) => Math.max(min, Math.min(max, v));
@@ -461,99 +500,38 @@ def main():
       $('mapList').innerHTML = visible.map(({{ lead, i }}) => renderLeadButton(lead, i, true)).join('') || '<div class="empty">No mapped leads match these filters.</div>';
       renderDetail('mapDetail', true);
     }}
-    function lonLatToWorld(lon, lat, z) {{
-      const scale = 256 * Math.pow(2, z);
-      const x = (lon + 180) / 360 * scale;
-      const s = Math.sin(lat * Math.PI / 180);
-      const y = (0.5 - Math.log((1 + s) / (1 - s)) / (4 * Math.PI)) * scale;
-      return {{ x, y }};
+    function markerIcon(lead, active) {{
+      return L.divIcon({{
+        className: '',
+        html: `<div class="lead-marker ${{esc(lead.quality_recommendation)}} ${{active ? 'active' : ''}}"></div>`,
+        iconSize: [active ? 21 : 15, active ? 21 : 15],
+        iconAnchor: [0, 0]
+      }});
     }}
-    function worldToLonLat(x, y, z) {{
-      const scale = 256 * Math.pow(2, z);
-      const lon = x / scale * 360 - 180;
-      const n = Math.PI - 2 * Math.PI * y / scale;
-      const lat = 180 / Math.PI * Math.atan(0.5 * (Math.exp(n) - Math.exp(-n)));
-      return {{ lon, lat }};
-    }}
-    function getTile(z, x, y) {{
-      const max = Math.pow(2, z);
-      x = ((x % max) + max) % max;
-      if (y < 0 || y >= max) return null;
-      const key = `${{z}}/${{x}}/${{y}}`;
-      if (tileCache.has(key)) return tileCache.get(key);
-      const img = new Image();
-      img.src = `https://basemaps.cartocdn.com/dark_all/${{z}}/${{x}}/${{y}}.png`;
-      img.onload = draw;
-      tileCache.set(key, img);
-      return img;
-    }}
-    function drawTiles(w, h) {{
-      const z = Math.floor(clamp(state.zoom, 3, 14));
-      const center = lonLatToWorld(state.centerLon, state.centerLat, z);
-      const startX = center.x - w / 2;
-      const startY = center.y - h / 2;
-      const x0 = Math.floor(startX / 256), x1 = Math.floor((center.x + w / 2) / 256);
-      const y0 = Math.floor(startY / 256), y1 = Math.floor((center.y + h / 2) / 256);
-      ctx.fillStyle = '#071326';
-      ctx.fillRect(0, 0, w, h);
-      for (let y = y0; y <= y1; y++) for (let x = x0; x <= x1; x++) {{
-        const img = getTile(z, x, y);
-        const px = Math.round(x * 256 - startX);
-        const py = Math.round(y * 256 - startY);
-        if (img && img.complete && img.naturalWidth) ctx.drawImage(img, px, py, 256, 256);
-        else {{
-          ctx.fillStyle = '#0d213b';
-          ctx.fillRect(px, py, 256, 256);
-          ctx.strokeStyle = 'rgba(51,214,208,.09)';
-          ctx.strokeRect(px, py, 256, 256);
-        }}
-      }}
-      ctx.fillStyle = 'rgba(2, 6, 23, .18)';
-      ctx.fillRect(0, 0, w, h);
-    }}
-    function mapPoint(lat, lon, w, h) {{
-      const z = Math.floor(clamp(state.zoom, 3, 14));
-      const center = lonLatToWorld(state.centerLon, state.centerLat, z);
-      const p = lonLatToWorld(lon, lat, z);
-      return {{ x: w / 2 + p.x - center.x, y: h / 2 + p.y - center.y }};
-    }}
-    function drawPoints(w, h) {{
-      for (const entry of rows(true)) {{
-        const p = mapPoint(entry.lead.lat, entry.lead.lon, w, h);
-        if (p.x < -30 || p.x > w + 30 || p.y < -30 || p.y > h + 30) continue;
-        const active = entry.i === state.selected;
-        ctx.strokeStyle = colors[entry.lead.quality_recommendation] || '#33d6d0';
-        ctx.globalAlpha = active ? .42 : .2;
-        ctx.lineWidth = 2;
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, active ? 18 : 11, 0, Math.PI * 2);
-        ctx.stroke();
-        ctx.globalAlpha = 1;
-        ctx.fillStyle = colors[entry.lead.quality_recommendation] || '#33d6d0';
-        ctx.strokeStyle = active ? '#fff' : 'rgba(226,245,255,.75)';
-        ctx.lineWidth = active ? 3 : 1.5;
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, active ? 7 : 5, 0, Math.PI * 2);
-        ctx.fill();
-        ctx.stroke();
-      }}
-    }}
-    function draw() {{
-      if (state.view !== 'map') return;
-      const w = canvas.clientWidth, h = canvas.clientHeight;
-      if (!w || !h) return;
-      ctx.clearRect(0, 0, w, h);
-      drawTiles(w, h);
-      drawPoints(w, h);
+    function updateZoomReadout() {{
+      state.zoom = map.getZoom();
+      const center = map.getCenter();
+      state.centerLat = center.lat;
+      state.centerLon = center.lng;
       $('zoom').textContent = state.zoom.toFixed(1);
     }}
+    function renderMarkers() {{
+      markerLayer.clearLayers();
+      for (const entry of rows(true)) {{
+        const marker = L.marker([entry.lead.lat, entry.lead.lon], {{
+          icon: markerIcon(entry.lead, entry.i === state.selected),
+          keyboard: false,
+          riseOnHover: true,
+          title: entry.lead.business_name || ''
+        }});
+        marker.on('click', () => selectLead(entry.i, false));
+        marker.addTo(markerLayer);
+      }}
+      updateZoomReadout();
+    }}
     function resize() {{
-      const rect = canvas.getBoundingClientRect();
-      const dpr = window.devicePixelRatio || 1;
-      canvas.width = Math.max(1, Math.floor(rect.width * dpr));
-      canvas.height = Math.max(1, Math.floor(rect.height * dpr));
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      draw();
+      map.invalidateSize({{ animate: false }});
+      updateZoomReadout();
     }}
     function selectLead(i, fly) {{
       state.selected = i;
@@ -561,33 +539,11 @@ def main():
       if (fly && lead && lead.lat !== null && lead.lat !== undefined) {{
         state.centerLat = lead.lat;
         state.centerLon = lead.lon;
-        state.zoom = Math.max(state.zoom, 8.2);
+        map.flyTo([lead.lat, lead.lon], Math.max(map.getZoom(), 8.2), {{ duration: 0.65, easeLinearity: 0.2 }});
       }}
       renderDashboard();
       renderMapPanel();
-      draw();
-    }}
-    function pointAt(x, y) {{
-      let best = null;
-      const w = canvas.clientWidth, h = canvas.clientHeight;
-      for (const entry of rows(true)) {{
-        const p = mapPoint(entry.lead.lat, entry.lead.lon, w, h);
-        const d = Math.hypot(p.x - x, p.y - y);
-        if (d < 15 && (!best || d < best.d)) best = {{ ...entry, d }};
-      }}
-      if (best) selectLead(best.i, false);
-    }}
-    function zoomAround(anchor, delta) {{
-      const oldZ = Math.floor(clamp(state.zoom, 3, 14));
-      const center = lonLatToWorld(state.centerLon, state.centerLat, oldZ);
-      const before = worldToLonLat(center.x + anchor.x - canvas.clientWidth / 2, center.y + anchor.y - canvas.clientHeight / 2, oldZ);
-      state.zoom = clamp(state.zoom + delta, 3, 14);
-      const newZ = Math.floor(clamp(state.zoom, 3, 14));
-      const afterWorld = lonLatToWorld(before.lon, before.lat, newZ);
-      const next = worldToLonLat(afterWorld.x - (anchor.x - canvas.clientWidth / 2), afterWorld.y - (anchor.y - canvas.clientHeight / 2), newZ);
-      state.centerLon = next.lon;
-      state.centerLat = clamp(next.lat, -82, 82);
-      draw();
+      renderMarkers();
     }}
     function setView(view) {{
       state.view = view;
@@ -595,12 +551,12 @@ def main():
       $('mapView').classList.toggle('active', view === 'map');
       $('dashboardTab').classList.toggle('active', view === 'dashboard');
       $('mapTab').classList.toggle('active', view === 'map');
-      if (view === 'map') requestAnimationFrame(resize);
+      if (view === 'map') requestAnimationFrame(() => {{ resize(); renderMarkers(); }});
     }}
     function setStatus(i, value) {{ localStorage.setItem(storeKey(i, 'status'), value); renderDashboard(); renderMapPanel(); }}
     function setCheck(i, c, checked) {{ localStorage.setItem(storeKey(i, `check:${{c}}`), checked ? '1' : '0'); renderDashboard(); renderMapPanel(); }}
     function setNote(i, value) {{ localStorage.setItem(storeKey(i, 'note'), value); }}
-    function refreshAll() {{ renderDashboard(); renderMapPanel(); draw(); }}
+    function refreshAll() {{ renderDashboard(); renderMapPanel(); renderMarkers(); }}
     $('dashboardTab').addEventListener('click', () => setView('dashboard'));
     $('mapTab').addEventListener('click', () => setView('map'));
     $('search').addEventListener('input', e => {{ state.query = e.target.value.toLowerCase(); refreshAll(); }});
@@ -608,26 +564,14 @@ def main():
     $('country').addEventListener('change', e => {{ state.country = e.target.value; refreshAll(); }});
     $('statusFilter').addEventListener('change', e => {{ state.status = e.target.value; refreshAll(); }});
     $('qualityFilter').addEventListener('change', e => {{ state.quality = e.target.value; refreshAll(); }});
-    $('zoomIn').addEventListener('click', () => zoomAround({{ x: canvas.clientWidth / 2, y: canvas.clientHeight / 2 }}, .7));
-    $('zoomOut').addEventListener('click', () => zoomAround({{ x: canvas.clientWidth / 2, y: canvas.clientHeight / 2 }}, -.7));
-    canvas.addEventListener('wheel', e => e.preventDefault(), {{ passive: false }});
-    canvas.addEventListener('pointerdown', e => {{ state.drag = true; state.moved = false; state.lastX = e.clientX; state.lastY = e.clientY; canvas.setPointerCapture(e.pointerId); }});
-    canvas.addEventListener('pointermove', e => {{
-      if (!state.drag) return;
-      const dx = e.clientX - state.lastX, dy = e.clientY - state.lastY;
-      if (Math.abs(dx) + Math.abs(dy) > 3) state.moved = true;
-      state.lastX = e.clientX; state.lastY = e.clientY;
-      const z = Math.floor(clamp(state.zoom, 3, 14));
-      const center = lonLatToWorld(state.centerLon, state.centerLat, z);
-      const next = worldToLonLat(center.x - dx, center.y - dy, z);
-      state.centerLon = next.lon;
-      state.centerLat = clamp(next.lat, -82, 82);
-      draw();
-    }});
-    canvas.addEventListener('pointerup', e => {{ state.drag = false; if (!state.moved) pointAt(e.offsetX, e.offsetY); }});
+    $('zoomIn').addEventListener('click', () => map.setZoom(map.getZoom() + 0.5, {{ animate: true }}));
+    $('zoomOut').addEventListener('click', () => map.setZoom(map.getZoom() - 0.5, {{ animate: true }}));
+    map.on('zoom moveend', updateZoomReadout);
+    map.on('zoomend moveend', renderMarkers);
     window.addEventListener('resize', resize);
     renderDashboard();
     renderMapPanel();
+    renderMarkers();
   </script>
 </body>
 </html>
