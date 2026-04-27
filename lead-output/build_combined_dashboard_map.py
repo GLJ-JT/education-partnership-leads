@@ -163,7 +163,20 @@ def main():
       background: var(--control);
       font-size: 16px;
     }}
-    .toolbar {{ display: grid; grid-template-columns: auto auto; gap: 12px; align-items: center; }}
+    .toolbar {{ display: grid; grid-template-columns: auto auto auto; gap: 12px; align-items: center; }}
+    .export-actions {{ display: flex; gap: 6px; align-items: center; }}
+    .export-actions button {{
+      min-width: 76px;
+      height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--text);
+      background: var(--control);
+      padding: 0 11px;
+      font-weight: 700;
+      font-size: 12px;
+    }}
+    .export-actions button:hover {{ border-color: var(--blue); color: var(--blue); }}
     .filters {{ display: grid; grid-template-columns: minmax(220px, 1.4fr) repeat(4, minmax(112px, .7fr)); gap: 8px; }}
     input, select, textarea {{
       width: 100%;
@@ -384,6 +397,10 @@ def main():
           <button id="mapTab" type="button">Map</button>
         </div>
         <button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch theme">◐</button>
+        <div class="export-actions" aria-label="Export outreach progress">
+          <button id="exportProgressCsv" type="button">CSV</button>
+          <button id="exportProgressJson" type="button">JSON</button>
+        </div>
       </div>
       <div class="filters">
         <input id="search" type="search" placeholder="Search name, city, notes, email..." />
@@ -502,6 +519,7 @@ def main():
     function statusOf(i) {{ return localStorage.getItem(storeKey(i, 'status')) || 'new'; }}
     function statusLabel(value) {{ return ({{ new: 'New', research: 'Researching', contacted: 'Contacted', followup: 'Follow-up', partner: 'Partner fit', reject: 'Not fit' }})[value] || value; }}
     function progressOf(i) {{ return CHECKS.filter((_, c) => localStorage.getItem(storeKey(i, `check:${{c}}`)) === '1').length; }}
+    function noteOf(i) {{ return localStorage.getItem(storeKey(i, 'note')) || ''; }}
     function firstUrl(value) {{ return safe(value).split(';').map(v => v.trim()).filter(Boolean)[0] || ''; }}
     function link(value, label) {{
       const url = firstUrl(value);
@@ -709,9 +727,59 @@ def main():
     function setCheck(i, c, checked) {{ localStorage.setItem(storeKey(i, `check:${{c}}`), checked ? '1' : '0'); renderDashboard(); renderMapPanel(); }}
     function setNote(i, value) {{ localStorage.setItem(storeKey(i, 'note'), value); }}
     function refreshAll() {{ renderDashboard(); renderMapPanel(); renderMarkers(); }}
+    function progressRows() {{
+      return LEADS.map((lead, i) => {{
+        const row = {{
+          lead_index: i,
+          business_name: lead.business_name || '',
+          city: lead.city || '',
+          country: lead.country || '',
+          website: lead.website || '',
+          email: lead.email || '',
+          phone: lead.phone || '',
+          decision_maker_name: lead.decision_maker_name || '',
+          decision_maker_title: lead.decision_maker_title || '',
+          quality_recommendation: lead.quality_recommendation || '',
+          quality_grade: lead.quality_grade || '',
+          score: lead.score || '',
+          status: statusOf(i),
+          status_label: statusLabel(statusOf(i)),
+          checklist_done: progressOf(i),
+          checklist_total: CHECKS.length,
+          note: noteOf(i)
+        }};
+        CHECKS.forEach((check, c) => row[`check_${{c + 1}}_${{check.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')}}`] = localStorage.getItem(storeKey(i, `check:${{c}}`)) === '1' ? 'yes' : 'no');
+        return row;
+      }});
+    }}
+    function downloadFile(filename, mime, content) {{
+      const blob = new Blob([content], {{ type: mime }});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+    }}
+    function csvCell(value) {{ return `"${{safe(value).replace(/"/g, '""')}}"`; }}
+    function exportProgress(format) {{
+      const rows = progressRows();
+      const stamp = new Date().toISOString().slice(0, 10);
+      if (format === 'json') {{
+        downloadFile(`lead-progress-${{stamp}}.json`, 'application/json;charset=utf-8', JSON.stringify(rows, null, 2));
+        return;
+      }}
+      const headers = Object.keys(rows[0] || {{}});
+      const csv = [headers.join(','), ...rows.map(row => headers.map(h => csvCell(row[h])).join(','))].join('\\n');
+      downloadFile(`lead-progress-${{stamp}}.csv`, 'text/csv;charset=utf-8', '\\ufeff' + csv);
+    }}
     $('dashboardTab').addEventListener('click', () => setView('dashboard'));
     $('mapTab').addEventListener('click', () => setView('map'));
     $('themeToggle').addEventListener('click', () => applyTheme(document.body.dataset.theme === 'dark' ? 'light' : 'dark'));
+    $('exportProgressCsv').addEventListener('click', () => exportProgress('csv'));
+    $('exportProgressJson').addEventListener('click', () => exportProgress('json'));
     $('search').addEventListener('input', e => {{ state.query = e.target.value.toLowerCase(); refreshAll(); }});
     $('fit').addEventListener('change', e => {{ state.fit = e.target.value; refreshAll(); }});
     $('country').addEventListener('change', e => {{ state.country = e.target.value; refreshAll(); }});
